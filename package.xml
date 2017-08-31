@@ -6,8 +6,10 @@
         <name>ApexClass</name>
     </types>
     <types>
-        <members>Test2__c</members>
+        <members>Activity</members>
+        <members>Asset</members>
         <members>Test1__c</members>
+        <members>Test2__c</members>
         <members>Test__c</members>
         <name>CustomObject</name>
     </types>
