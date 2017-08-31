@@ -6,6 +6,19 @@
         <name>ApexClass</name>
     </types>
     <types>
+        <members>Case.Standard</members>
+        <members>Lead.Standard</members>
+        <name>AssignmentRule</name>
+    </types>
+    <types>
+        <members>standard__Chatter</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>Account.Active__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
         <members>Test2__c</members>
         <members>Test__c</members>
         <name>CustomObject</name>
