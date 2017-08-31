@@ -26,6 +26,8 @@
         <members>Asset</members>
         <members>AssetRelationship</members>
         <members>AssistantProgress</members>
+        <members>Campaign</members>
+        <members>CampaignMember</members>
         <members>Test2__c</members>
         <members>Test__c</members>
         <name>CustomObject</name>
