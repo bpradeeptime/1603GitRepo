@@ -23,6 +23,9 @@
         <members>AccountCleanInfo</members>
         <members>AccountContactRole</members>
         <members>Activity</members>
+        <members>Asset</members>
+        <members>AssetRelationship</members>
+        <members>AssistantProgress</members>
         <members>Test2__c</members>
         <members>Test__c</members>
         <name>CustomObject</name>
