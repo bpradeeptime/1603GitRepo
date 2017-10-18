@@ -2,6 +2,10 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>39.0</version>
     <types>
+        <members>ConfictClass</members>
+        <members>IBM_Class</members>
+        <members>IBM_Class1</members>
+        <members>IBM_Class2</members>
         <members>publicclass15032016</members>
         <name>ApexClass</name>
     </types>
