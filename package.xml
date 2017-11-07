@@ -2,6 +2,9 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>39.0</version>
     <types>
+        <members>MyClass090312</members>
+        <members>PublicClass1703</members>
+        <members>Publicclass</members>
         <members>publicclass15032016</members>
         <name>ApexClass</name>
     </types>
