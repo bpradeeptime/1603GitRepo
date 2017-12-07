@@ -29,6 +29,7 @@
     </types>
     <types>
         <members>Account.Active__c</members>
+        <members>test_object__c.Test_field__c</members>
         <name>CustomField</name>
     </types>
     <types>
