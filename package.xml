@@ -48,4 +48,11 @@
         <members>Test__c</members>
         <name>CustomObject</name>
     </types>
+    <types>
+        <members>Test1__c-en_US</members>
+        <members>Test2__c-en_US</members>
+        <members>Test__c-en_US</members>
+        <members>test_object__c-en_US</members>
+        <name>CustomObjectTranslation</name>
+    </types>
 </Package>
