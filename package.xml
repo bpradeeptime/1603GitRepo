@@ -45,6 +45,7 @@
         <members>LeadCleanInfo</members>
         <members>Macro</members>
         <members>Opportunity</members>
+        <members>Test1__c</members>
         <members>Test2__c</members>
         <members>Test__c</members>
         <members>test_object__c</members>
