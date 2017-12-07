@@ -9,7 +9,7 @@
         <value>test objects</value>
     </caseValues>
     <fields>
-        <label/>
+        <label>test</label>
         <name>Test_field__c</name>
     </fields>
     <startsWith>Consonant</startsWith>

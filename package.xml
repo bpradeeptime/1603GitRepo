@@ -47,6 +47,7 @@
         <members>Opportunity</members>
         <members>Test2__c</members>
         <members>Test__c</members>
+        <members>test_object__c</members>
         <name>CustomObject</name>
     </types>
     <types>
