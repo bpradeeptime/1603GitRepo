@@ -24,6 +24,11 @@
         <name>AssignmentRule</name>
     </types>
     <types>
+        <members>Case</members>
+        <members>Lead</members>
+        <name>AssignmentRules</name>
+    </types>
+    <types>
         <members>standard__Chatter</members>
         <name>CustomApplication</name>
     </types>
@@ -57,5 +62,11 @@
         <members>Test__c-en_US</members>
         <members>test_object__c-en_US</members>
         <name>CustomObjectTranslation</name>
+    </types>
+    <types>
+        <members>Analytics Cloud Security User</members>
+        <members>Authenticated Website</members>
+        <members>Customer Portal Manager Custom</members>
+        <name>Profile</name>
     </types>
 </Package>
