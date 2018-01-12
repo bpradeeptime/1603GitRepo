@@ -2,6 +2,13 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>39.0</version>
     <types>
+        <members>A13</members>
+        <members>A14</members>
+        <members>MyClass090312</members>
+        <members>MyClass0908</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
         <members>Salesforce1</members>
         <name>AppMenu</name>
     </types>
