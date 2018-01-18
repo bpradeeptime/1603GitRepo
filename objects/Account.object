@@ -61,23 +61,23 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>WebsiteHighlightAction</actionName>
+        <actionName>WebsiteHighlightAction1</actionName>
         <type>Default</type>
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
     <fields>
-        <fullName>AccountNumber</fullName>
+        <fullName>AccountNumber1</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
-        <fullName>AccountSource</fullName>
+        <fullName>AccountSource1</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
     </fields>
     <fields>
-        <fullName>Active__c</fullName>
+        <fullName>Active__c1</fullName>
         <externalId>false</externalId>
         <label>Active</label>
         <required>false</required>
@@ -100,7 +100,7 @@
         </valueSet>
     </fields>
     <fields>
-        <fullName>AnnualRevenue</fullName>
+        <fullName>AnnualRevenue1</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
@@ -112,7 +112,7 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
-        <fullName>CustomerPriority__c</fullName>
+        <fullName>CustomerPriority__c1</fullName>
         <externalId>false</externalId>
         <label>Customer Priority</label>
         <required>false</required>
