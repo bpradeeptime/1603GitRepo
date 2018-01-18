@@ -61,7 +61,7 @@
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>CloseDate</fullName>
+        <fullName>CloseDate1</fullName>
         <trackFeedHistory>true</trackFeedHistory>
         <trackTrending>false</trackTrending>
     </fields>
@@ -83,7 +83,7 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>DeliveryInstallationStatus__c</fullName>
+        <fullName>DeliveryInstallationStatus__c1</fullName>
         <externalId>false</externalId>
         <label>Delivery/Installation Status</label>
         <required>false</required>
@@ -170,7 +170,7 @@
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>Pricebook2Id</fullName>
+        <fullName>Pricebook2Id1</fullName>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
