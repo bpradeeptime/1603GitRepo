@@ -33,11 +33,11 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>Tab</actionName>
+        <actionName>Tab1</actionName>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>View</actionName>
+        <actionName>View1</actionName>
         <type>Default</type>
     </actionOverrides>
     <allowInChatterGroups>true</allowInChatterGroups>
@@ -52,10 +52,10 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fieldSets>
-        <fullName>Fieldset_111</fullName>
+        <fullName>1Fieldset_111</fullName>
         <description>page</description>
         <displayedFields>
-            <field>Field_3__c</field>
+            <field>1Field_3__c</field>
             <isFieldManaged>false</isFieldManaged>
             <isRequired>false</isRequired>
         </displayedFields>
@@ -77,7 +77,7 @@
         <label>Fieldset 1</label>
     </fieldSets>
     <fields>
-        <fullName>Field_1__c1</fullName>
+        <fullName>1Field_1__c1</fullName>
         <externalId>false</externalId>
         <label>Field 1</label>
         <length>255</length>
@@ -99,7 +99,7 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Field_3__c11</fullName>
+        <fullName>1Field_3__c11</fullName>
         <externalId>false</externalId>
         <label>Field 3</label>
         <length>255</length>
