@@ -104,7 +104,7 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
-        <fullName>BillingAddress</fullName>
+        <fullName>BillingAddress1</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
@@ -112,7 +112,7 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
-        <fullName>CustomerPriority__c1</fullName>
+        <fullName>CustomerPriority__c11</fullName>
         <externalId>false</externalId>
         <label>Customer Priority</label>
         <required>false</required>
@@ -145,7 +145,7 @@
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>Description</fullName>
+        <fullName>Description1</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
@@ -392,7 +392,7 @@
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <webLinks>
-        <fullName>Billing</fullName>
+        <fullName>Billing1</fullName>
         <availability>online</availability>
         <displayType>link</displayType>
         <encodingKey>UTF-8</encodingKey>
