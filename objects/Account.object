@@ -68,16 +68,16 @@
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
     <fields>
-        <fullName>AccountNumber1</fullName>
+        <fullName>AccountNumber</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
-        <fullName>AccountSource1</fullName>
+        <fullName>AccountSource</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
     </fields>
     <fields>
-        <fullName>Active__c1</fullName>
+        <fullName>Active__c</fullName>
         <externalId>false</externalId>
         <label>Active</label>
         <required>false</required>
@@ -104,7 +104,7 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
-        <fullName>BillingAddress1</fullName>
+        <fullName>BillingAddress</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
@@ -112,7 +112,7 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
-        <fullName>CustomerPriority__c11</fullName>
+        <fullName>CustomerPriority__c</fullName>
         <externalId>false</externalId>
         <label>Customer Priority</label>
         <required>false</required>
@@ -145,7 +145,7 @@
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>Description1</fullName>
+        <fullName>Description</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
@@ -392,7 +392,7 @@
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <webLinks>
-        <fullName>Billing1</fullName>
+        <fullName>Billing</fullName>
         <availability>online</availability>
         <displayType>link</displayType>
         <encodingKey>UTF-8</encodingKey>
