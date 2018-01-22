@@ -52,7 +52,7 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fieldSets>
-        <fullName>Fieldset_1</fullName>
+        <fullName>Fieldset_new__1</fullName>
         <description>page</description>
         <displayedFields>
             <field>Field_3__c</field>
@@ -88,7 +88,7 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Field_2__c</fullName>
+        <fullName>Field_2new__c</fullName>
         <externalId>false</externalId>
         <label>Field 2</label>
         <length>255</length>
@@ -110,7 +110,7 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Field_4__c</fullName>
+        <fullName>Field_4new__c</fullName>
         <externalId>false</externalId>
         <label>Field 4</label>
         <length>255</length>
@@ -191,7 +191,7 @@
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
     <webLinks>
-        <fullName>Test_Button</fullName>
+        <fullName>Test_Button_new</fullName>
         <availability>online</availability>
         <displayType>button</displayType>
         <encodingKey>UTF-8</encodingKey>
@@ -210,7 +210,7 @@
         <url>https://sftoolkit.co/</url>
     </webLinks>
     <webLinks>
-        <fullName>Test_Link</fullName>
+        <fullName>Test_Link_new</fullName>
         <availability>online</availability>
         <displayType>link</displayType>
         <encodingKey>UTF-8</encodingKey>
