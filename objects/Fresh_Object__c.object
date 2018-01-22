@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionOverrides>
-        <actionName>Accept1</actionName>
+        <actionName>Accept</actionName>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -154,7 +154,7 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Field_8__1c</fullName>
+        <fullName>Field_8__11c</fullName>
         <externalId>false</externalId>
         <label>Field 8</label>
         <length>255</length>
@@ -178,14 +178,14 @@
     <pluralLabel>Fresh Object</pluralLabel>
     <recordTypeTrackHistory>false</recordTypeTrackHistory>
     <recordTypes>
-        <fullName>Rec11</fullName>
+        <fullName>Rec111</fullName>
         <active>true</active>
-        <label>Rec1</label>
+        <label>Rec111</label>
     </recordTypes>
     <recordTypes>
-        <fullName>Rec22</fullName>
+        <fullName>Rec222</fullName>
         <active>true</active>
-        <label>Rec2</label>
+        <label>Rec222</label>
     </recordTypes>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
@@ -210,7 +210,7 @@
         <url>https://sftoolkit.co/</url>
     </webLinks>
     <webLinks>
-        <fullName>1Test_Link1</fullName>
+        <fullName>1Test_Link1new</fullName>
         <availability>online</availability>
         <displayType>link</displayType>
         <encodingKey>UTF-8</encodingKey>
