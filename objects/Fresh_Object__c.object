@@ -5,11 +5,11 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>1CancelEdit</actionName>
+        <actionName>CancelEdit</actionName>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>Clone1</actionName>
+        <actionName>Clone</actionName>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -33,11 +33,11 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>Tab1</actionName>
+        <actionName>Tab</actionName>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>View1</actionName>
+        <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
     <allowInChatterGroups>true</allowInChatterGroups>
@@ -52,10 +52,10 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fieldSets>
-        <fullName>11Fieldset_111111</fullName>
+        <fullName>Fieldset_1</fullName>
         <description>page</description>
         <displayedFields>
-            <field>1Field_3__c</field>
+            <field>Field_3__c</field>
             <isFieldManaged>false</isFieldManaged>
             <isRequired>false</isRequired>
         </displayedFields>
@@ -77,7 +77,7 @@
         <label>Fieldset 1</label>
     </fieldSets>
     <fields>
-        <fullName>1F1ield_1__c111</fullName>
+        <fullName>F1ield_1__c</fullName>
         <externalId>false</externalId>
         <label>Field 1</label>
         <length>255</length>
@@ -88,7 +88,7 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Field_2__c111</fullName>
+        <fullName>Field_2__c</fullName>
         <externalId>false</externalId>
         <label>Field 2</label>
         <length>255</length>
@@ -99,7 +99,7 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>1Field_3__c11</fullName>
+        <fullName>1Field_3__c</fullName>
         <externalId>false</externalId>
         <label>Field 3</label>
         <length>255</length>
@@ -110,7 +110,7 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Field_4__c111</fullName>
+        <fullName>Field_4__c</fullName>
         <externalId>false</externalId>
         <label>Field 4</label>
         <length>255</length>
@@ -121,7 +121,7 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Field_5__c1</fullName>
+        <fullName>Field_5__c</fullName>
         <externalId>false</externalId>
         <label>Field 5</label>
         <length>255</length>
@@ -132,7 +132,7 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Field_6__c11</fullName>
+        <fullName>Field_6__c</fullName>
         <externalId>false</externalId>
         <label>Field 6</label>
         <length>255</length>
@@ -143,7 +143,7 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Field_7__c11</fullName>
+        <fullName>Field_7__c</fullName>
         <externalId>false</externalId>
         <label>Field 7</label>
         <length>255</length>
@@ -154,7 +154,7 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Field_8__11c</fullName>
+        <fullName>Field_8__c</fullName>
         <externalId>false</externalId>
         <label>Field 8</label>
         <length>255</length>
@@ -191,7 +191,7 @@
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
     <webLinks>
-        <fullName>Test_Button111</fullName>
+        <fullName>Test_Button</fullName>
         <availability>online</availability>
         <displayType>button</displayType>
         <encodingKey>UTF-8</encodingKey>
@@ -210,7 +210,7 @@
         <url>https://sftoolkit.co/</url>
     </webLinks>
     <webLinks>
-        <fullName>1Test_Link1new</fullName>
+        <fullName>Test_Link</fullName>
         <availability>online</availability>
         <displayType>link</displayType>
         <encodingKey>UTF-8</encodingKey>
