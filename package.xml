@@ -4,6 +4,10 @@
     <types>
         <members>A0</members>
         <members>A1</members>
+        <members>AccountClassTest</members>
+        <members>Accountclass</members>
+        <members>BankAccountTest</members>
+        <members>Bank_Account</members>
         <members>ConfictClass</members>
         <members>IBM_Class</members>
         <members>IBM_Class1</members>
