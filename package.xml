@@ -89,9 +89,17 @@
         <members>LeadCleanInfo</members>
         <members>Macro</members>
         <members>Opportunity</members>
+        <members>PricebookEntry</members>
+        <members>Product2</members>
         <members>Test1__c</members>
         <members>Test2__c</members>
         <members>Test__c</members>
+        <members>Ticket__c</members>
+        <members>UniqueTest__c</members>
+        <members>UserProvisioningRequest</members>
+        <members>X0903__c</members>
+        <members>agents__c</members>
+        <members>bus__c</members>
         <members>test_object__c</members>
         <name>CustomObject</name>
     </types>

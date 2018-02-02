@@ -21,10 +21,6 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>Edit1</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
         <actionName>List</actionName>
         <type>Default</type>
     </actionOverrides>
@@ -44,36 +40,34 @@
         <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
-    <allowInChatterGroups>true</allowInChatterGroups>
-    <compactLayoutAssignment>test</compactLayoutAssignment>
-    <compactLayouts>
-        <fullName>test</fullName>
-        <fields>LastModifiedById</fields>
-        <fields>OwnerId</fields>
-        <label>test</label>
-    </compactLayouts>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>test</description>
-    <enableActivities>true</enableActivities>
+    <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
-    <enableHistory>true</enableHistory>
-    <enableReports>true</enableReports>
-    <enableSearch>true</enableSearch>
+    <enableHistory>false</enableHistory>
+    <enableReports>false</enableReports>
+    <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <label>MYTest1</label>
+    <fields>
+        <fullName>ticket__c</fullName>
+        <externalId>false</externalId>
+        <label>ticket</label>
+        <length>10</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>buss</label>
     <nameField>
-        <label>Test Name</label>
-        <trackHistory>false</trackHistory>
+        <label>bus Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>tests</pluralLabel>
+    <pluralLabel>busses</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
-    <sharingReasons>
-        <fullName>test__c</fullName>
-        <label>test</label>
-    </sharingReasons>
     <visibility>Public</visibility>
 </CustomObject>
