@@ -48,35 +48,43 @@
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableReports>false</enableReports>
-    <enableSearch>false</enableSearch>
+    <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
-        <fullName>missinglabel__c</fullName>
-        <externalId>false</externalId>
-        <label>missinglable</label>
-        <length>20</length>
+        <fullName>AutorabitExtId__c</fullName>
+        <description>External Id created by AutoRABIT</description>
+        <externalId>true</externalId>
+        <label>AutorabitExtId__c</label>
+        <length>18</length>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>testname__c</fullName>
+        <fullName>Phone_num__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
         <externalId>false</externalId>
-        <label>testname</label>
-        <length>30</length>
+        <label>My_Acc</label>
+        <referenceTo>My_Acc__c</referenceTo>
+        <relationshipLabel>My_Contacts</relationshipLabel>
+        <relationshipName>My_Contacts</relationshipName>
         <required>false</required>
         <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
+        <type>Lookup</type>
     </fields>
-    <label>Test</label>
+    <label>My_Contact</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
     <nameField>
-        <label>Test Name</label>
+        <label>My_Contact Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Tests</pluralLabel>
+    <pluralLabel>My_Contacts</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

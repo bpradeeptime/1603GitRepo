@@ -48,36 +48,75 @@
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableReports>false</enableReports>
-    <enableSearch>false</enableSearch>
+    <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
-        <fullName>missinglabel__c</fullName>
-        <externalId>false</externalId>
-        <label>missinglable</label>
-        <length>20</length>
+        <fullName>AutorabitExtId__c</fullName>
+        <description>External Id created by AutoRABIT</description>
+        <externalId>true</externalId>
+        <label>AutorabitExtId__c</label>
+        <length>18</length>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>testname__c</fullName>
+        <fullName>CUST_CITY__c</fullName>
+        <caseSensitive>false</caseSensitive>
         <externalId>false</externalId>
-        <label>testname</label>
-        <length>30</length>
-        <required>false</required>
+        <label>CUST_CITY</label>
+        <length>20</length>
+        <required>true</required>
         <trackTrending>false</trackTrending>
         <type>Text</type>
-        <unique>false</unique>
+        <unique>true</unique>
     </fields>
-    <label>Test</label>
+    <fields>
+        <fullName>Client_Name__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>false</externalId>
+        <label>Client_Name</label>
+        <length>20</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>triger_field__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>false</externalId>
+        <label>triger_field</label>
+        <length>20</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <label>Customer_Success_Table</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Client_Name__c</columns>
+        <columns>CUST_CITY__c</columns>
+        <columns>triger_field__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
     <nameField>
-        <label>Test Name</label>
+        <label>Customer_Success_Table Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Tests</pluralLabel>
+    <pluralLabel>Customer_Success_Tables</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>CUST_CITY_c_rule</fullName>
+        <active>false</active>
+        <errorConditionFormula>CUST_CITY__c  &lt;&gt;  UPPER( CUST_CITY__c)</errorConditionFormula>
+        <errorMessage>CUST_CITY must be upper case</errorMessage>
+    </validationRules>
     <visibility>Public</visibility>
 </CustomObject>

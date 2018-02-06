@@ -52,31 +52,21 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
-        <fullName>missinglabel__c</fullName>
+        <fullName>name__c</fullName>
         <externalId>false</externalId>
-        <label>missinglable</label>
-        <length>20</length>
+        <label>Name</label>
+        <length>10</length>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
     </fields>
-    <fields>
-        <fullName>testname__c</fullName>
-        <externalId>false</externalId>
-        <label>testname</label>
-        <length>30</length>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <label>Test</label>
+    <label>Account</label>
     <nameField>
-        <label>Test Name</label>
+        <label>Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Tests</pluralLabel>
+    <pluralLabel>Accounts</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

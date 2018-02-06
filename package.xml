@@ -40,18 +40,29 @@
     </types>
     <types>
         <members>Account.Active__c</members>
+        <members>Account.AutorabitExtId__c</members>
         <members>Account.CustomerPriority__c</members>
         <members>Account.NumberofLocations__c</members>
         <members>Account.SLAExpirationDate__c</members>
         <members>Account.SLASerialNumber__c</members>
         <members>Account.SLA__c</members>
         <members>Account.UpsellOpportunity__c</members>
+        <members>Account__c.name__c</members>
+        <members>Activity.AutorabitExtId__c</members>
+        <members>Asset.AutorabitExtId__c</members>
+        <members>Case.AutorabitExtId__c</members>
         <members>Case.EngineeringReqNumber__c</members>
         <members>Case.PotentialLiability__c</members>
         <members>Case.Product__c</members>
         <members>Case.SLAViolation__c</members>
+        <members>Contact.AutorabitExtId__c</members>
         <members>Contact.Languages__c</members>
         <members>Contact.Level__c</members>
+        <members>Contract.AutorabitExtId__c</members>
+        <members>Customer_Success_Table__c.AutorabitExtId__c</members>
+        <members>Customer_Success_Table__c.CUST_CITY__c</members>
+        <members>Customer_Success_Table__c.Client_Name__c</members>
+        <members>Customer_Success_Table__c.triger_field__c</members>
         <members>Fresh_Object__c.Field_1__c</members>
         <members>Fresh_Object__c.Field_2__c</members>
         <members>Fresh_Object__c.Field_3__c</members>
@@ -61,17 +72,57 @@
         <members>Fresh_Object__c.Field_7__c</members>
         <members>Fresh_Object__c.Field_8__c</members>
         <members>Goal.OrigGoalId__c</members>
+        <members>Lead.AutorabitExtId__c</members>
         <members>Lead.CurrentGenerators__c</members>
         <members>Lead.NumberofLocations__c</members>
         <members>Lead.Primary__c</members>
         <members>Lead.ProductInterest__c</members>
         <members>Lead.SICCode__c</members>
         <members>Metric.OrigMetricId__c</members>
+        <members>My_Acc__c.Address__c</members>
+        <members>My_Acc__c.AutorabitExtId__c</members>
+        <members>My_Contact__c.AutorabitExtId__c</members>
+        <members>My_Contact__c.Phone_num__c</members>
+        <members>Opportunity.AutorabitExtId__c</members>
         <members>Opportunity.CurrentGenerators__c</members>
         <members>Opportunity.DeliveryInstallationStatus__c</members>
         <members>Opportunity.MainCompetitors__c</members>
         <members>Opportunity.OrderNumber__c</members>
         <members>Opportunity.TrackingNumber__c</members>
+        <members>Order.AutorabitExtId__c</members>
+        <members>Pradeep_Address__c.Add_ID__c</members>
+        <members>Pradeep_Address__c.AutorabitExtId__c</members>
+        <members>Pradeep_Address__c.address__c</members>
+        <members>Pricebook2.AutorabitExtId__c</members>
+        <members>Product2.AutorabitExtId__c</members>
+        <members>Solution.AutorabitExtId__c</members>
+        <members>UniqueTest__c.AutorabitExtId__c</members>
+        <members>UniqueTest__c.UniqueField__c</members>
+        <members>agents__c.AGENT_CODE__c</members>
+        <members>agents__c.AutorabitExtId__c</members>
+        <members>agents__c.COMMISSION__c</members>
+        <members>agents__c.PHONE_NO__c</members>
+        <members>agents__c.WORKING_AREA__c</members>
+        <members>bus__c.ticket__c</members>
+        <members>customer__c.AGENT_CODE__c</members>
+        <members>customer__c.AutorabitExtId__c</members>
+        <members>customer__c.CUST_CITY__c</members>
+        <members>customer__c.CUST_CODE__c</members>
+        <members>customer__c.GRADE__c</members>
+        <members>customer__c.newUnique__c</members>
+        <members>orders__c.ADVANCE_AMOUNT__c</members>
+        <members>orders__c.AGENT_CODE__c</members>
+        <members>orders__c.AutorabitExtId__c</members>
+        <members>orders__c.CUST_CODE__c</members>
+        <members>orders__c.ORD_AMOUNT__c</members>
+        <members>orders__c.ORD_DATE__c</members>
+        <members>orders__c.ORD_NUM__c</members>
+        <members>retriveobject__c.test1__c</members>
+        <members>retriveobject__c.test2__c</members>
+        <members>retriveobject__c.test3__c</members>
+        <members>retriveobject__c.test__c</members>
+        <members>test__c.missinglabel__c</members>
+        <members>test__c.testname__c</members>
         <members>test_object__c.Test_field__c</members>
         <name>CustomField</name>
     </types>
@@ -83,15 +134,18 @@
         <members>Account</members>
         <members>AccountCleanInfo</members>
         <members>AccountContactRole</members>
+        <members>Account__c</members>
         <members>Activity</members>
         <members>Asset</members>
         <members>AssetRelationship</members>
         <members>AssistantProgress</members>
         <members>Campaign</members>
         <members>CampaignMember</members>
+        <members>Customer_Success_Table__c</members>
         <members>Fresh_Object__c</members>
         <members>LeadCleanInfo</members>
         <members>Macro</members>
+        <members>My_Contact__c</members>
         <members>Opportunity</members>
         <members>PricebookEntry</members>
         <members>Product2</members>
@@ -104,6 +158,7 @@
         <members>X0903__c</members>
         <members>agents__c</members>
         <members>bus__c</members>
+        <members>orders__c</members>
         <members>test_object__c</members>
         <name>CustomObject</name>
     </types>
