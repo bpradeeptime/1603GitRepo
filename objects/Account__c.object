@@ -52,7 +52,7 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
-        <fullName>name__c</fullName>
+        <fullName>name__c1</fullName>
         <externalId>false</externalId>
         <label>Name</label>
         <length>10</length>
