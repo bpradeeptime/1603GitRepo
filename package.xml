@@ -8,6 +8,10 @@
         <name>ApexClass</name>
     </types>
     <types>
+        <members>AccountContactRole</members>
+        <members>Account__c</members>
+        <members>Activity</members>
+        <members>Asset</members>
         <members>OrgDeleteRequest</members>
         <members>PartnerRole</members>
         <members>Pradeep_Address__c</members>
