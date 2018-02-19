@@ -8,6 +8,10 @@
         <name>ApexClass</name>
     </types>
     <types>
+        <members>OrgDeleteRequest</members>
+        <members>PartnerRole</members>
+        <members>Pradeep_Address__c</members>
+        <members>Pricebook2</members>
         <members>Test1__c</members>
         <members>Test2__c</members>
         <members>Test__c</members>
