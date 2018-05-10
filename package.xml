@@ -5,6 +5,7 @@
         <members>A0</members>
         <members>A1</members>
         <members>A12</members>
+        <members>A13</members>
         <members>AccountClassTest</members>
         <members>Accountclass</members>
         <members>BankAccountTest</members>
