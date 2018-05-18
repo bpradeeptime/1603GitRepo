@@ -8,6 +8,10 @@
         <name>standard__Sales</name>
         <type>CustomApplication</type>
     </appMenuItems>
+     <appMenuItems>
+        <name>standard__Sales</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
     <appMenuItems>
         <name>standard__Service</name>
         <type>CustomApplication</type>
