@@ -5,6 +5,7 @@
     <tab>standard-Chatter</tab>
     <tab>standard-UserProfile</tab>
     <tab>standard-OtherUserProfile</tab>
+    <tab>standard-OtherUserProfile</tab>
     <tab>standard-CollaborationGroup</tab>
     <tab>standard-File</tab>
     <tab>test_object__c</tab>
