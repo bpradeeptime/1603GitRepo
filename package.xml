@@ -256,4 +256,9 @@
         <members>Customer Portal Manager Custom</members>
         <name>Profile</name>
     </types>
+    <types>
+        <members>Metric.Completion</members>
+        <members>Metric.Progress</members>
+        <name>RecordType</name>
+    </types>
 </Package>
