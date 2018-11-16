@@ -1,3 +1,0 @@
-<apex:page action="/lightning/o/Event/home"  >
-    <apex:ListViews type="Event"/>
-</apex:page>

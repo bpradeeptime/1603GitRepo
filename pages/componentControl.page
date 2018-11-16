@@ -1,3 +1,0 @@
-<apex:page >
-  <c:simpleComponent componentValue="Hi there, {!$User.FirstName}"/>   
-</apex:page>

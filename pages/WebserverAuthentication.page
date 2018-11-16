@@ -1,3 +1,0 @@
-<apex:page controller="WebServerAuthenticationController" action="{!WebServerlogin}">
-
-</apex:page>
