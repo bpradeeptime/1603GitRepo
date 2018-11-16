@@ -167,14 +167,139 @@
         <location>full</location>
     </listPlacement>
     <listRefreshMethod>none</listRefreshMethod>
+    <liveAgentConfig>
+        <enableLiveChat>true</enableLiveChat>
+        <openNewAccountSubtab>false</openNewAccountSubtab>
+        <openNewCaseSubtab>true</openNewCaseSubtab>
+        <openNewContactSubtab>false</openNewContactSubtab>
+        <openNewLeadSubtab>false</openNewLeadSubtab>
+        <openNewVFPageSubtab>false</openNewVFPageSubtab>
+        <showKnowledgeArticles>false</showKnowledgeArticles>
+    </liveAgentConfig>
     <saveUserSessions>true</saveUserSessions>
     <tab>standard-Account</tab>
     <tab>standard-Contact</tab>
     <tab>standard-Case</tab>
     <tab>standard-Opportunity</tab>
     <tab>standard-Lead</tab>
-    <tab>test_object__c</tab>
+    <tab>standard-Knowledge</tab>
+    <tab>Customer__c</tab>
+    <tab>Student__c</tab>
+    <tab>Object__c</tab>
+    <tab>Camping_Item__c</tab>
+    <tab>Branch__c</tab>
+    <tab>Branch2__c</tab>
+    <tab>Branch3__c</tab>
+    <tab>Branch1__c</tab>
+    <tab>A__c</tab>
+    <tab>B__c</tab>
+    <tab>C__c</tab>
+    <tab>Expense__c</tab>
+    <tab>Suggestion__c</tab>
+    <tab>Students1</tab>
+    <tab>Stsudent1</tab>
+    <tab>Waypoint__c</tab>
+    <tab>External_Application__c</tab>
+    <tab>Jio__x</tab>
+    <tab>Travel_Forecast_Form__c</tab>
+    <tab>Property__c</tab>
+    <tab>AutoRabitTest__c</tab>
+    <tab>ARVault__c</tab>
+    <tab>Object_Depenency__c</tab>
+    <tab>Categorys__x</tab>
+    <tab>Audit_Trail__c</tab>
+    <tab>Testabc__c</tab>
+    <tab>Data1__c</tab>
+    <tab>SetupTest__c</tab>
+    <tab>Case_Event__c</tab>
     <workspaceMappings>
+        <mapping>
+            <tab>ARVault__c</tab>
+        </mapping>
+        <mapping>
+            <tab>A__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Audit_Trail__c</tab>
+        </mapping>
+        <mapping>
+            <tab>AutoRabitTest__c</tab>
+        </mapping>
+        <mapping>
+            <tab>B__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Branch1__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Branch2__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Branch3__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Branch__c</tab>
+        </mapping>
+        <mapping>
+            <tab>C__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Camping_Item__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Case_Event__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Categorys__x</tab>
+        </mapping>
+        <mapping>
+            <tab>Customer__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Data1__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Expense__c</tab>
+        </mapping>
+        <mapping>
+            <tab>External_Application__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Jio__x</tab>
+        </mapping>
+        <mapping>
+            <tab>Object_Depenency__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Object__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Property__c</tab>
+        </mapping>
+        <mapping>
+            <tab>SetupTest__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Stsudent1</tab>
+        </mapping>
+        <mapping>
+            <tab>Student__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Students1</tab>
+        </mapping>
+        <mapping>
+            <tab>Suggestion__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Testabc__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Travel_Forecast_Form__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Waypoint__c</tab>
+        </mapping>
         <mapping>
             <tab>standard-Account</tab>
         </mapping>
@@ -187,14 +312,14 @@
             <tab>standard-Contact</tab>
         </mapping>
         <mapping>
+            <tab>standard-Knowledge</tab>
+        </mapping>
+        <mapping>
             <tab>standard-Lead</tab>
         </mapping>
         <mapping>
             <fieldName>AccountId</fieldName>
             <tab>standard-Opportunity</tab>
-        </mapping>
-        <mapping>
-            <tab>test_object__c</tab>
         </mapping>
     </workspaceMappings>
 </CustomApplication>

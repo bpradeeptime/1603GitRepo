@@ -25,4 +25,16 @@
         <label>Closed - Not Converted</label>
         <converted>false</converted>
     </standardValue>
+    <standardValue>
+        <fullName>Not Completed</fullName>
+        <default>false</default>
+        <label>Not Completed</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Next123</fullName>
+        <default>false</default>
+        <label>Next123</label>
+        <converted>false</converted>
+    </standardValue>
 </StandardValueSet>

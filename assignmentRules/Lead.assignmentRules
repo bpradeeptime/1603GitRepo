@@ -1,25 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <AssignmentRules xmlns="http://soap.sforce.com/2006/04/metadata">
     <assignmentRule>
-        <fullName>Standard</fullName>
-        <active>true</active>
+        <fullName>1234</fullName>
+        <active>false</active>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>Lead Rule</fullName>
+        <active>false</active>
         <ruleEntry>
-            <assignedTo>ar@dest.com</assignedTo>
+            <assignedTo>kcs4u4@gmail.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <template>unfiled$public/New</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>kcs4u4@gmail.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
-                <field>Lead.Country</field>
+                <field>Lead.Round_Robin_Id__c</field>
                 <operation>equals</operation>
-                <value>US,USA,United States,United States of America</value>
+                <value>1</value>
             </criteriaItems>
+            <template>unfiled$public/EmailSample</template>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>ar@dest.com</assignedTo>
+            <assignedTo>chandra@goud.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
-                <field>Lead.Country</field>
-                <operation>notEqual</operation>
-                <value>US,USA,United States,United States of America</value>
+                <field>Lead.Lead_Number__c</field>
+                <operation>equals</operation>
+                <value>2</value>
             </criteriaItems>
+            <template>unfiled$public/EmailSample</template>
         </ruleEntry>
+        <ruleEntry>
+            <assignedTo>chandra@goud.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <criteriaItems>
+                <field>Lead.Lead_Number__c</field>
+                <operation>equals</operation>
+                <value>3</value>
+            </criteriaItems>
+            <template>unfiled$public/MarketingProductInquiryResponse</template>
+        </ruleEntry>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>Second rule</fullName>
+        <active>false</active>
+        <ruleEntry>
+            <assignedTo>Test1</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>$Permission.New_Permission &lt;&gt; Null</formula>
+            <template>unfiled$public/asdasd</template>
+        </ruleEntry>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>Test_Audit</fullName>
+        <active>true</active>
     </assignmentRule>
 </AssignmentRules>

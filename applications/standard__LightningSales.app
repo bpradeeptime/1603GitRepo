@@ -5,6 +5,14 @@
     <formFactors>Large</formFactors>
     <label>Sales</label>
     <navType>Standard</navType>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>NewAccount1</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>StUser1</profile>
+    </profileActionOverrides>
     <tab>standard-home</tab>
     <tab>standard-Opportunity</tab>
     <tab>standard-Lead</tab>
@@ -21,6 +29,34 @@
     <tab>standard-OtherUserProfile</tab>
     <tab>standard-Case</tab>
     <tab>standard-Forecasting3</tab>
-    <tab>test_object__c</tab>
+    <tab>Camping_Item__c</tab>
+    <tab>Branch__c</tab>
+    <tab>Branch2__c</tab>
+    <tab>Branch3__c</tab>
+    <tab>Branch1__c</tab>
+    <tab>A__c</tab>
+    <tab>B__c</tab>
+    <tab>C__c</tab>
+    <tab>Expense__c</tab>
+    <tab>Suggestion__c</tab>
+    <tab>Students1</tab>
+    <tab>Stsudent1</tab>
+    <tab>Waypoint__c</tab>
+    <tab>standard-Quote</tab>
+    <tab>External_Application__c</tab>
+    <tab>Jio__x</tab>
+    <tab>Travel_Forecast_Form__c</tab>
+    <tab>Property__c</tab>
+    <tab>AutoRabitTest__c</tab>
+    <tab>ARVault__c</tab>
+    <tab>Object_Depenency__c</tab>
+    <tab>Categorys__x</tab>
+    <tab>Audit_Trail__c</tab>
+    <tab>Testabc__c</tab>
+    <tab>APR_20__c</tab>
+    <tab>Data1__c</tab>
+    <tab>SetupTest__c</tab>
+    <tab>Case_Event__c</tab>
     <uiType>Lightning</uiType>
+    <utilityBar>Sales_UtilityBar</utilityBar>
 </CustomApplication>

@@ -66,6 +66,7 @@
     </fields>
     <fields>
         <fullName>BillingAddress</fullName>
+        <encrypted>false</encrypted>
         <trackHistory>true</trackHistory>
     </fields>
     <fields>
@@ -79,6 +80,10 @@
     </fields>
     <fields>
         <fullName>ContractTerm</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>CurrencyIsoCode</fullName>
         <trackHistory>true</trackHistory>
     </fields>
     <fields>
@@ -122,6 +127,7 @@
     </fields>
     <fields>
         <fullName>ShippingAddress</fullName>
+        <encrypted>false</encrypted>
         <trackHistory>true</trackHistory>
     </fields>
     <fields>

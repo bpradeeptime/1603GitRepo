@@ -9,5 +9,34 @@
     <tab>standard-Solution</tab>
     <tab>standard-report</tab>
     <tab>standard-Dashboard</tab>
-    <tab>test_object__c</tab>
+    <tab>Customer__c</tab>
+    <tab>Student__c</tab>
+    <tab>Object__c</tab>
+    <tab>Camping_Item__c</tab>
+    <tab>Branch__c</tab>
+    <tab>Branch2__c</tab>
+    <tab>Branch3__c</tab>
+    <tab>Branch1__c</tab>
+    <tab>A__c</tab>
+    <tab>B__c</tab>
+    <tab>C__c</tab>
+    <tab>Expense__c</tab>
+    <tab>Suggestion__c</tab>
+    <tab>Students1</tab>
+    <tab>Stsudent1</tab>
+    <tab>Waypoint__c</tab>
+    <tab>External_Application__c</tab>
+    <tab>Jio__x</tab>
+    <tab>Travel_Forecast_Form__c</tab>
+    <tab>Property__c</tab>
+    <tab>AutoRabitTest__c</tab>
+    <tab>ARVault__c</tab>
+    <tab>Object_Depenency__c</tab>
+    <tab>Categorys__x</tab>
+    <tab>Knowledge__kav</tab>
+    <tab>Audit_Trail__c</tab>
+    <tab>Testabc__c</tab>
+    <tab>Data1__c</tab>
+    <tab>SetupTest__c</tab>
+    <tab>Case_Event__c</tab>
 </CustomApplication>

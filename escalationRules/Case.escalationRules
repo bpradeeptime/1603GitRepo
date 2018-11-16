@@ -1,8 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <EscalationRules xmlns="http://soap.sforce.com/2006/04/metadata">
     <escalationRule>
-        <fullName>Standard</fullName>
+        <fullName>Help</fullName>
         <active>true</active>
+        <ruleEntry>
+            <businessHours>dvdsds</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <criteriaItems>
+                <field>Case.Reason</field>
+                <operation>notEqual</operation>
+                <value>Installation</value>
+            </criteriaItems>
+            <escalationAction>
+                <assignedTo>chandra@goud.com</assignedTo>
+                <assignedToTemplate>unfiled$public/asdasd</assignedToTemplate>
+                <assignedToType>User</assignedToType>
+                <minutesToEscalation>330</minutesToEscalation>
+                <notifyCaseOwner>false</notifyCaseOwner>
+                <notifyTo>kcs4u4@gmail.com</notifyTo>
+                <notifyToTemplate>unfiled$public/EmailSample</notifyToTemplate>
+            </escalationAction>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+        <ruleEntry>
+            <businessHoursSource>Case</businessHoursSource>
+            <criteriaItems>
+                <field>Case.BusinessHoursId</field>
+                <operation>equals</operation>
+                <value>Default</value>
+            </criteriaItems>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+    </escalationRule>
+    <escalationRule>
+        <fullName>Standard</fullName>
+        <active>false</active>
         <ruleEntry>
             <businessHoursSource>Case</businessHoursSource>
             <criteriaItems>
@@ -21,12 +53,12 @@
                 <value>High</value>
             </criteriaItems>
             <escalationAction>
-                <assignedTo>ar@dest.com</assignedTo>
+                <assignedTo>kcs4u4@gmail.com</assignedTo>
                 <assignedToTemplate>unfiled$public/SupportEscalatedCaseReassignment</assignedToTemplate>
                 <assignedToType>User</assignedToType>
                 <minutesToEscalation>120</minutesToEscalation>
                 <notifyCaseOwner>false</notifyCaseOwner>
-                <notifyTo>ar@dest.com</notifyTo>
+                <notifyTo>kcs4u4@gmail.com</notifyTo>
                 <notifyToTemplate>unfiled$public/SupportEscalatedCaseNotification</notifyToTemplate>
             </escalationAction>
             <escalationStartTime>CaseCreation</escalationStartTime>
@@ -49,12 +81,12 @@
                 <value>Medium,Low</value>
             </criteriaItems>
             <escalationAction>
-                <assignedTo>ar@dest.com</assignedTo>
+                <assignedTo>kcs4u4@gmail.com</assignedTo>
                 <assignedToTemplate>unfiled$public/SupportEscalatedCaseReassignment</assignedToTemplate>
                 <assignedToType>User</assignedToType>
                 <minutesToEscalation>360</minutesToEscalation>
                 <notifyCaseOwner>false</notifyCaseOwner>
-                <notifyTo>ar@dest.com</notifyTo>
+                <notifyTo>kcs4u4@gmail.com</notifyTo>
                 <notifyToTemplate>unfiled$public/SupportEscalatedCaseNotification</notifyToTemplate>
             </escalationAction>
             <escalationStartTime>CaseCreation</escalationStartTime>
@@ -77,12 +109,12 @@
                 <value>High</value>
             </criteriaItems>
             <escalationAction>
-                <assignedTo>ar@dest.com</assignedTo>
+                <assignedTo>kcs4u4@gmail.com</assignedTo>
                 <assignedToTemplate>unfiled$public/SupportEscalatedCaseReassignment</assignedToTemplate>
                 <assignedToType>User</assignedToType>
                 <minutesToEscalation>240</minutesToEscalation>
                 <notifyCaseOwner>false</notifyCaseOwner>
-                <notifyTo>ar@dest.com</notifyTo>
+                <notifyTo>kcs4u4@gmail.com</notifyTo>
                 <notifyToTemplate>unfiled$public/SupportEscalatedCaseNotification</notifyToTemplate>
             </escalationAction>
             <escalationStartTime>CaseCreation</escalationStartTime>
@@ -105,12 +137,12 @@
                 <value>Medium,Low</value>
             </criteriaItems>
             <escalationAction>
-                <assignedTo>ar@dest.com</assignedTo>
+                <assignedTo>kcs4u4@gmail.com</assignedTo>
                 <assignedToTemplate>unfiled$public/SupportEscalatedCaseReassignment</assignedToTemplate>
                 <assignedToType>User</assignedToType>
                 <minutesToEscalation>480</minutesToEscalation>
                 <notifyCaseOwner>false</notifyCaseOwner>
-                <notifyTo>ar@dest.com</notifyTo>
+                <notifyTo>kcs4u4@gmail.com</notifyTo>
                 <notifyToTemplate>unfiled$public/SupportEscalatedCaseNotification</notifyToTemplate>
             </escalationAction>
             <escalationStartTime>CaseCreation</escalationStartTime>
@@ -128,12 +160,12 @@
                 <value>Silver</value>
             </criteriaItems>
             <escalationAction>
-                <assignedTo>ar@dest.com</assignedTo>
+                <assignedTo>kcs4u4@gmail.com</assignedTo>
                 <assignedToTemplate>unfiled$public/SupportEscalatedCaseReassignment</assignedToTemplate>
                 <assignedToType>User</assignedToType>
                 <minutesToEscalation>720</minutesToEscalation>
                 <notifyCaseOwner>false</notifyCaseOwner>
-                <notifyTo>ar@dest.com</notifyTo>
+                <notifyTo>kcs4u4@gmail.com</notifyTo>
                 <notifyToTemplate>unfiled$public/SupportEscalatedCaseNotification</notifyToTemplate>
             </escalationAction>
             <escalationStartTime>CaseCreation</escalationStartTime>
@@ -151,12 +183,12 @@
                 <value>Bronze</value>
             </criteriaItems>
             <escalationAction>
-                <assignedTo>ar@dest.com</assignedTo>
+                <assignedTo>kcs4u4@gmail.com</assignedTo>
                 <assignedToTemplate>unfiled$public/SupportEscalatedCaseReassignment</assignedToTemplate>
                 <assignedToType>User</assignedToType>
                 <minutesToEscalation>1440</minutesToEscalation>
                 <notifyCaseOwner>false</notifyCaseOwner>
-                <notifyTo>ar@dest.com</notifyTo>
+                <notifyTo>kcs4u4@gmail.com</notifyTo>
                 <notifyToTemplate>unfiled$public/SupportEscalatedCaseNotification</notifyToTemplate>
             </escalationAction>
             <escalationStartTime>CaseCreation</escalationStartTime>
@@ -174,12 +206,12 @@
                 <value>Gold,Platinum</value>
             </criteriaItems>
             <escalationAction>
-                <assignedTo>ar@dest.com</assignedTo>
+                <assignedTo>kcs4u4@gmail.com</assignedTo>
                 <assignedToTemplate>unfiled$public/SupportEscalatedCaseReassignment</assignedToTemplate>
                 <assignedToType>User</assignedToType>
                 <minutesToEscalation>360</minutesToEscalation>
                 <notifyCaseOwner>false</notifyCaseOwner>
-                <notifyTo>ar@dest.com</notifyTo>
+                <notifyTo>kcs4u4@gmail.com</notifyTo>
                 <notifyToTemplate>unfiled$public/SupportEscalatedCaseNotification</notifyToTemplate>
             </escalationAction>
             <escalationStartTime>CaseCreation</escalationStartTime>
@@ -197,15 +229,34 @@
                 <value>Silver,Bronze</value>
             </criteriaItems>
             <escalationAction>
-                <assignedTo>ar@dest.com</assignedTo>
+                <assignedTo>kcs4u4@gmail.com</assignedTo>
                 <assignedToTemplate>unfiled$public/SupportEscalatedCaseReassignment</assignedToTemplate>
                 <assignedToType>User</assignedToType>
                 <minutesToEscalation>1080</minutesToEscalation>
                 <notifyCaseOwner>false</notifyCaseOwner>
-                <notifyTo>ar@dest.com</notifyTo>
+                <notifyTo>kcs4u4@gmail.com</notifyTo>
                 <notifyToTemplate>unfiled$public/SupportEscalatedCaseNotification</notifyToTemplate>
             </escalationAction>
             <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+    </escalationRule>
+    <escalationRule>
+        <fullName>sscs</fullName>
+        <active>false</active>
+        <ruleEntry>
+            <businessHours>dvdsds</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <escalationAction>
+                <assignedTo>AccountQueue</assignedTo>
+                <assignedToTemplate>unfiled$public/asdasd</assignedToTemplate>
+                <assignedToType>Queue</assignedToType>
+                <minutesToEscalation>150</minutesToEscalation>
+                <notifyCaseOwner>false</notifyCaseOwner>
+                <notifyTo>chandra@goud.com</notifyTo>
+                <notifyToTemplate>unfiled$public/EmailSample</notifyToTemplate>
+            </escalationAction>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+            <formula>Login_Url__c &lt;&gt; $Setup.FieloEE__MemberPortal__c.FieloEE__Color01__c</formula>
         </ruleEntry>
     </escalationRule>
 </EscalationRules>
