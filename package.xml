@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>39.0</version>
+    <version>41.0</version>
+    <types>
+        <members>A0</members>
+        <members>A0123</members>
+        <members>A025</members>
+        <name>ApexClass</name>
+    </types>
     <types>
         <members>AppSwitcher</members>
         <members>Salesforce1</members>
@@ -48,6 +54,7 @@
         <members>Account.AccountSource</members>
         <members>Account.Active__c</members>
         <members>Account.AnnualRevenue</members>
+        <members>Account.AutorabitExtId__c</members>
         <members>Account.BillingAddress</members>
         <members>Account.CleanStatus</members>
         <members>Account.CustomerPriority__c</members>
@@ -261,6 +268,7 @@
         <members>Contract.StartDate</members>
         <members>Contract.Status</members>
         <members>ContractContactRole.Role</members>
+        <members>Customer_Success_Table__c.triger_field__c</members>
         <members>DandBCompany.CompanyCurrencyIsoCode</members>
         <members>DandBCompany.CountryAccessCode</members>
         <members>DandBCompany.CurrencyCode</members>
