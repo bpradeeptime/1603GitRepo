@@ -15,6 +15,16 @@
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
+	  <applicationVisibilities>
+        <application>standard__Community</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+	  <applicationVisibilities>
+        <application>standard__Community</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__Content</application>
         <default>false</default>
@@ -942,6 +952,16 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.NumberofLocations__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+	    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.NumberofLocations__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+	    <fieldPermissions>
         <editable>true</editable>
         <field>Lead.NumberofLocations__c</field>
         <readable>true</readable>
@@ -2237,6 +2257,18 @@
         <name>ViewPublicReports</name>
     </userPermissions>
     <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewSetup</name>
+    </userPermissions>
+	 <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewSetup</name>
+    </userPermissions>
+	 <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewSetup</name>
+    </userPermissions>
+	 <userPermissions>
         <enabled>true</enabled>
         <name>ViewSetup</name>
     </userPermissions>
