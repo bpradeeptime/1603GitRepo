@@ -37,10 +37,6 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>SaveEdit</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
         <actionName>Today</actionName>
         <type>Default</type>
     </actionOverrides>
@@ -55,6 +51,9 @@
     </fields>
     <fields>
         <fullName>ActivityDateTime</fullName>
+    </fields>
+    <fields>
+        <fullName>Attendees</fullName>
     </fields>
     <fields>
         <fullName>Description</fullName>
@@ -78,6 +77,12 @@
         <fullName>IsPrivate</fullName>
     </fields>
     <fields>
+        <fullName>IsRecurrence2</fullName>
+    </fields>
+    <fields>
+        <fullName>IsReminderSet</fullName>
+    </fields>
+    <fields>
         <fullName>Location</fullName>
     </fields>
     <fields>
@@ -86,6 +91,10 @@
     </fields>
     <fields>
         <fullName>Phone</fullName>
+    </fields>
+    <fields>
+        <fullName>ServiceAppointmentId</fullName>
+        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>ShowAs</fullName>

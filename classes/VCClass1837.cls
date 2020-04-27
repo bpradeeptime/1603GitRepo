@@ -1,0 +1,1 @@
+global class VCClass1837{}

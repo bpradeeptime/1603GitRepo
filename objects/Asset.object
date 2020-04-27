@@ -30,6 +30,7 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
     <fields>
         <fullName>AccountId</fullName>
         <trackHistory>false</trackHistory>
@@ -59,6 +60,11 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>DigitalAssetStatus</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
         <fullName>InstallDate</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -69,11 +75,6 @@
     <fields>
         <fullName>IsInternal</fullName>
         <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>LocationId</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>Name</fullName>
@@ -129,6 +130,9 @@
         <fullName>Status</fullName>
         <trackHistory>false</trackHistory>
         <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>StockKeepingUnit</fullName>
     </fields>
     <fields>
         <fullName>UsageEndDate</fullName>
