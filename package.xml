@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>39.0</version>
+    <version>48.0</version>
     <types>
         <members>publicclass15032016</members>
         <name>ApexClass</name>
     </types>
     <types>
-        <members>Test2__c</members>
         <members>Test1__c</members>
-        <members>Test__c</members>
+        <members>Test2__c</members>
         <name>CustomObject</name>
+    </types>
+    <types>
+        <members>test</members>
+        <name>Profile</name>
     </types>
 </Package>
