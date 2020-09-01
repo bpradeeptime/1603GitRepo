@@ -2498,6 +2498,9 @@
         <layout>Global-PradeepGL1</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Global-PradeepGL</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Idea-Idea Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
