@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>retriveobject</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>retriveobjects</value>
+    </caseValues>
+    <fields>
+        <label><!-- test1 --></label>
+        <name>test1__c</name>
+    </fields>
+    <fields>
+        <label><!-- test2 --></label>
+        <name>test2__c</name>
+    </fields>
+    <fields>
+        <label><!-- test3 --></label>
+        <name>test3__c</name>
+    </fields>
+    <fields>
+        <label><!-- test --></label>
+        <name>test__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
