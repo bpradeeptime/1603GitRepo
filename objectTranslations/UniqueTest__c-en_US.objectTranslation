@@ -9,11 +9,11 @@
         <value>UniqueTests</value>
     </caseValues>
     <fields>
-        <label><!-- AutorabitExtId__c --></label>
+        <label></label>
         <name>AutorabitExtId__c</name>
     </fields>
     <fields>
-        <label><!-- UniqueField --></label>
+        <label></label>
         <name>UniqueField__c</name>
     </fields>
     <startsWith>Consonant</startsWith>

@@ -9,19 +9,19 @@
         <value>busses</value>
     </caseValues>
     <fields>
-        <label><!-- Field1 --></label>
+        <label></label>
         <name>Field1__c</name>
     </fields>
     <fields>
-        <label><!-- Field2 --></label>
+        <label></label>
         <name>Field2__c</name>
     </fields>
     <recordTypes>
-        <label><!-- RecordType1 --></label>
+        <label></label>
         <name>RecordType1</name>
     </recordTypes>
     <recordTypes>
-        <label><!-- RecordType2 --></label>
+        <label></label>
         <name>RecordType2</name>
     </recordTypes>
     <startsWith>Consonant</startsWith>

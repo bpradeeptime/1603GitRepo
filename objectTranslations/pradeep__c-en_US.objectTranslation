@@ -4,9 +4,5 @@
         <plural>false</plural>
         <value>Pradeep Custom Setting</value>
     </caseValues>
-    <caseValues>
-        <plural>true</plural>
-        <value>Pradeep Custom Setting</value>
-    </caseValues>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

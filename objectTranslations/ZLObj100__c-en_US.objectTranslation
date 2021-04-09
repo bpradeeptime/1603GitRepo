@@ -9,7 +9,7 @@
         <value>ZLObj100s</value>
     </caseValues>
     <fields>
-        <label><!-- F1 --></label>
+        <label></label>
         <name>F1__c</name>
     </fields>
     <startsWith>Consonant</startsWith>

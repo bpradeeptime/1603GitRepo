@@ -9,12 +9,12 @@
         <value>My_Accs</value>
     </caseValues>
     <fields>
-        <label><!-- My_Contact --></label>
+        <label></label>
         <name>Address__c</name>
-        <relationshipLabel><!-- My_Accs --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- AutorabitExtId__c --></label>
+        <label></label>
         <name>AutorabitExtId__c</name>
     </fields>
     <startsWith>Consonant</startsWith>

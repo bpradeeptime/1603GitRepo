@@ -9,7 +9,7 @@
         <value>Vob90s</value>
     </caseValues>
     <fields>
-        <label><!-- f1 --></label>
+        <label></label>
         <name>f1__c</name>
     </fields>
     <startsWith>Consonant</startsWith>

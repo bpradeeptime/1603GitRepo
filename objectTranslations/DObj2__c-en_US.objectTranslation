@@ -9,7 +9,7 @@
         <value>DObj2s</value>
     </caseValues>
     <fields>
-        <label><!-- field1 --></label>
+        <label></label>
         <name>field1__c</name>
     </fields>
     <startsWith>Consonant</startsWith>

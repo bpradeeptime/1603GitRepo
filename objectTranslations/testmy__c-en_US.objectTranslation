@@ -4,9 +4,5 @@
         <plural>false</plural>
         <value>testmy</value>
     </caseValues>
-    <caseValues>
-        <plural>true</plural>
-        <value>testmy</value>
-    </caseValues>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

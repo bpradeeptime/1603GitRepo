@@ -9,7 +9,7 @@
         <value>DLObj1s</value>
     </caseValues>
     <fields>
-        <label><!-- JavaScript --></label>
+        <label></label>
         <name>JavaScript__c</name>
     </fields>
     <startsWith>Consonant</startsWith>

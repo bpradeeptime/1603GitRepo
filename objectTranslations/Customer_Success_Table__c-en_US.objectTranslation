@@ -9,24 +9,24 @@
         <value>Customer_Success_Tables</value>
     </caseValues>
     <fields>
-        <label><!-- AutorabitExtId__c --></label>
+        <label></label>
         <name>AutorabitExtId__c</name>
     </fields>
     <fields>
-        <label><!-- CUST_CITY --></label>
+        <label></label>
         <name>CUST_CITY__c</name>
     </fields>
     <fields>
-        <label><!-- Client_Name --></label>
+        <label></label>
         <name>Client_Name__c</name>
     </fields>
     <fields>
-        <label><!-- triger_field --></label>
+        <label></label>
         <name>triger_field__c</name>
     </fields>
     <startsWith>Consonant</startsWith>
     <validationRules>
-        <errorMessage><!-- CUST_CITY must be upper case --></errorMessage>
+        <errorMessage></errorMessage>
         <name>CUST_CITY_c_rule</name>
     </validationRules>
 </CustomObjectTranslation>

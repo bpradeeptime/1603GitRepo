@@ -9,11 +9,11 @@
         <value>SEObject1s</value>
     </caseValues>
     <fields>
-        <label><!-- field1 --></label>
+        <label></label>
         <name>field1__c</name>
     </fields>
     <fields>
-        <label><!-- field2 --></label>
+        <label></label>
         <name>field2__c</name>
     </fields>
     <startsWith>Consonant</startsWith>

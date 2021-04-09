@@ -9,19 +9,19 @@
         <value>retriveobjects</value>
     </caseValues>
     <fields>
-        <label><!-- test1 --></label>
+        <label></label>
         <name>test1__c</name>
     </fields>
     <fields>
-        <label><!-- test2 --></label>
+        <label></label>
         <name>test2__c</name>
     </fields>
     <fields>
-        <label><!-- test3 --></label>
+        <label></label>
         <name>test3__c</name>
     </fields>
     <fields>
-        <label><!-- test --></label>
+        <label></label>
         <name>test__c</name>
     </fields>
     <startsWith>Consonant</startsWith>

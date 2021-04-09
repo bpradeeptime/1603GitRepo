@@ -9,7 +9,7 @@
         <value>tests</value>
     </caseValues>
     <fields>
-        <label><!-- missinglable --></label>
+        <label></label>
         <name>missinglabel__c</name>
     </fields>
     <startsWith>Consonant</startsWith>

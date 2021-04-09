@@ -9,15 +9,15 @@
         <value>PradeepObj1s</value>
     </caseValues>
     <fields>
-        <label><!-- Field1 --></label>
+        <label></label>
         <name>Field1__c</name>
     </fields>
     <fields>
-        <label><!-- Field2 --></label>
+        <label></label>
         <name>Field2__c</name>
     </fields>
     <recordTypes>
-        <label><!-- Pradeep Record Type --></label>
+        <label></label>
         <name>Pradeep_Record_Type</name>
     </recordTypes>
     <startsWith>Consonant</startsWith>

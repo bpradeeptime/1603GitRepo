@@ -4,38 +4,34 @@
         <plural>false</plural>
         <value>orders</value>
     </caseValues>
-    <caseValues>
-        <plural>true</plural>
-        <value>orders</value>
-    </caseValues>
     <fields>
-        <label><!-- ADVANCE_AMOUNT --></label>
+        <label></label>
         <name>ADVANCE_AMOUNT__c</name>
     </fields>
     <fields>
-        <label><!-- agents --></label>
+        <label></label>
         <name>AGENT_CODE__c</name>
-        <relationshipLabel><!-- orders --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- AutorabitExtId__c --></label>
+        <label></label>
         <name>AutorabitExtId__c</name>
     </fields>
     <fields>
-        <label><!-- customer --></label>
+        <label></label>
         <name>CUST_CODE__c</name>
-        <relationshipLabel><!-- orders --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- ORD_AMOUNT --></label>
+        <label></label>
         <name>ORD_AMOUNT__c</name>
     </fields>
     <fields>
-        <label><!-- ORD_DATE --></label>
+        <label></label>
         <name>ORD_DATE__c</name>
     </fields>
     <fields>
-        <label><!-- ORD_NUM --></label>
+        <label></label>
         <name>ORD_NUM__c</name>
     </fields>
     <startsWith>Consonant</startsWith>

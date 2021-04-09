@@ -9,19 +9,19 @@
         <value>Dbj1s</value>
     </caseValues>
     <fields>
-        <label><!-- F1 --></label>
+        <label></label>
         <name>F1__c</name>
     </fields>
     <fields>
-        <label><!-- F2 --></label>
+        <label></label>
         <name>F2__c</name>
     </fields>
     <recordTypes>
-        <label><!-- Dbj_RC1 --></label>
+        <label></label>
         <name>Dbj_RC1</name>
     </recordTypes>
     <recordTypes>
-        <label><!-- Dbj_RC2 --></label>
+        <label></label>
         <name>Dbj_RC2</name>
     </recordTypes>
     <startsWith>Consonant</startsWith>

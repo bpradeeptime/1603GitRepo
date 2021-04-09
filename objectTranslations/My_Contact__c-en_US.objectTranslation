@@ -9,13 +9,13 @@
         <value>My_Contacts</value>
     </caseValues>
     <fields>
-        <label><!-- AutorabitExtId__c --></label>
+        <label></label>
         <name>AutorabitExtId__c</name>
     </fields>
     <fields>
-        <label><!-- My_Acc --></label>
+        <label></label>
         <name>Phone_num__c</name>
-        <relationshipLabel><!-- My_Contacts --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

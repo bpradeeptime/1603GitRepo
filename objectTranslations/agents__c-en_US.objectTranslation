@@ -4,28 +4,24 @@
         <plural>false</plural>
         <value>agents</value>
     </caseValues>
-    <caseValues>
-        <plural>true</plural>
-        <value>agents</value>
-    </caseValues>
     <fields>
-        <label><!-- AGENT_CODE --></label>
+        <label></label>
         <name>AGENT_CODE__c</name>
     </fields>
     <fields>
-        <label><!-- AutorabitExtId__c --></label>
+        <label></label>
         <name>AutorabitExtId__c</name>
     </fields>
     <fields>
-        <label><!-- COMMISSION --></label>
+        <label></label>
         <name>COMMISSION__c</name>
     </fields>
     <fields>
-        <label><!-- PHONE_NO --></label>
+        <label></label>
         <name>PHONE_NO__c</name>
     </fields>
     <fields>
-        <label><!-- WORKING_AREA --></label>
+        <label></label>
         <name>WORKING_AREA__c</name>
     </fields>
     <startsWith>Consonant</startsWith>

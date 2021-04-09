@@ -9,11 +9,11 @@
         <value>BNCs</value>
     </caseValues>
     <fields>
-        <label><!-- BNCF1 --></label>
+        <label></label>
         <name>BNCF1__c</name>
     </fields>
     <fields>
-        <label><!-- BNCF2 --></label>
+        <label></label>
         <name>BNCF2__c</name>
     </fields>
     <startsWith>Consonant</startsWith>

@@ -9,33 +9,33 @@
         <value>customers</value>
     </caseValues>
     <fields>
-        <label><!-- AGENT_CODE --></label>
+        <label></label>
         <name>AGENT_CODE__c</name>
-        <relationshipLabel><!-- customers --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- AutorabitExtId__c --></label>
+        <label></label>
         <name>AutorabitExtId__c</name>
     </fields>
     <fields>
-        <label><!-- CUST_CITY --></label>
+        <label></label>
         <name>CUST_CITY__c</name>
     </fields>
     <fields>
-        <label><!-- CUST_CODE --></label>
+        <label></label>
         <name>CUST_CODE__c</name>
     </fields>
     <fields>
-        <label><!-- GRADE --></label>
+        <label></label>
         <name>GRADE__c</name>
     </fields>
     <fields>
-        <label><!-- newUnique --></label>
+        <label></label>
         <name>newUnique__c</name>
     </fields>
     <startsWith>Consonant</startsWith>
     <validationRules>
-        <errorMessage><!-- CUST_CITY__c must be upper case --></errorMessage>
+        <errorMessage></errorMessage>
         <name>CUST_CITY_c_Rule</name>
     </validationRules>
 </CustomObjectTranslation>

@@ -9,18 +9,18 @@
         <value>s</value>
     </caseValues>
     <fields>
-        <label><!-- Field1 --></label>
+        <label></label>
         <name>Field1__c</name>
     </fields>
     <layouts>
         <layout>0903 new Layout</layout>
         <sections>
-            <label><!-- Custom Links --></label>
+            <label></label>
             <section>Custom Links</section>
         </sections>
     </layouts>
     <recordTypes>
-        <label><!-- RecordType1 --></label>
+        <label></label>
         <name>RecordType1</name>
     </recordTypes>
     <startsWith>Consonant</startsWith>
