@@ -36,7 +36,7 @@
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>AssetLevel1</fullName>
+        <fullName>AssetLevel</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
@@ -48,17 +48,6 @@
         <fullName>AssetServicedById</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>AutorabitExtId__c</fullName>
-        <description>External Id created by AutoRABIT</description>
-        <externalId>true</externalId>
-        <label>AutorabitExtId__c</label>
-        <length>18</length>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <type>Text</type>
-        <unique>false</unique>
     </fields>
     <fields>
         <fullName>ContactId</fullName>
