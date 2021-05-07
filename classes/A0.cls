@@ -1,0 +1,14 @@
+public Class A0
+{
+public Account createAccount(String name)  //method to create account123
+{
+//Modify added
+Account a011= new Account();
+
+a011.Name = name;
+//Modify111111145
+//maven4 Modify
+return a011;
+
+}
+}
