@@ -45,10 +45,12 @@
         <members>Account.UpsellOpportunity__c</members>
         <members>Account.Website</members>
         <members>Account.YearStarted</members>
+        <members>Account__c.name__c</members>
         <name>CustomField</name>
     </types>
     <types>
         <members>Account</members>
+        <members>Account__c</members>
         <members>Test1__c</members>
         <members>Test2__c</members>
         <name>CustomObject</name>
