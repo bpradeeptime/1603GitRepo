@@ -1,10 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>41.0</version>
+<?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <version>50.0</version>
     <types>
         <members>A0</members>
+        <members>A0001</members>
+        <members>A0009</members>
+        <members>A0071</members>
+        <members>A009</members>
         <members>A0123</members>
+        <members>A01234567</members>
+        <members>A0233</members>
         <members>A025</members>
+        <members>A027</members>
         <members>A080</members>
         <members>A081</members>
         <members>A090</members>
@@ -66,8 +72,8 @@
         <name>AppMenu</name>
     </types>
     <types>
-        <members>Case.Standard_new</members>
-        <members>Lead.Standard1</members>
+        <members>Case.Standard</members>
+        <members>Lead.Standard</members>
         <name>AssignmentRule</name>
     </types>
     <types>
@@ -88,8 +94,6 @@
         <members>Account.AccountSource</members>
         <members>Account.Active__c</members>
         <members>Account.AnnualRevenue</members>
-        <members>Account.AnnualRevenue1</members>
-        <members>Account.AutorabitExtId__c</members>
         <members>Account.BillingAddress</members>
         <members>Account.CleanStatus</members>
         <members>Account.CustomerPriority__c</members>
@@ -126,12 +130,10 @@
         <members>AccountCleanInfo.Ownership</members>
         <members>AccountContactRole.Role</members>
         <members>Account__c.name__c1</members>
-        <members>Activity.AutorabitExtId__c</members>
         <members>Asset.AccountId</members>
-        <members>Asset.AssetLevel1</members>
+        <members>Asset.AssetLevel</members>
         <members>Asset.AssetProvidedById</members>
         <members>Asset.AssetServicedById</members>
-        <members>Asset.AutorabitExtId__c</members>
         <members>Asset.ContactId</members>
         <members>Asset.Description</members>
         <members>Asset.InstallDate</members>
@@ -217,20 +219,235 @@
         <members>CampaignMember.Status</members>
         <members>CampaignMember.Street</members>
         <members>CampaignMember.Title</members>
-        <members>Case.AutorabitExtId__c</members>
+        <members>Case.AccountId</members>
+        <members>Case.AssetId</members>
+        <members>Case.BusinessHoursId</members>
+        <members>Case.ClosedDate</members>
+        <members>Case.Comments</members>
+        <members>Case.ContactEmail</members>
+        <members>Case.ContactFax</members>
+        <members>Case.ContactId</members>
+        <members>Case.ContactMobile</members>
+        <members>Case.ContactPhone</members>
+        <members>Case.Description</members>
         <members>Case.EngineeringReqNumber__c</members>
+        <members>Case.IsClosedOnCreate</members>
+        <members>Case.IsEscalated</members>
+        <members>Case.Origin</members>
+        <members>Case.OwnerId</members>
+        <members>Case.ParentId</members>
         <members>Case.PotentialLiability__c</members>
-        <members>Case.PotentialLiability_new__c</members>
+        <members>Case.Priority</members>
         <members>Case.Product__c</members>
+        <members>Case.Reason</members>
         <members>Case.SLAViolation__c</members>
-        <members>Contact.AutorabitExtId__c</members>
+        <members>Case.Status</members>
+        <members>Case.Subject</members>
+        <members>Case.SuppliedCompany</members>
+        <members>Case.SuppliedEmail</members>
+        <members>Case.SuppliedName</members>
+        <members>Case.SuppliedPhone</members>
+        <members>Case.Type</members>
+        <members>CaseContactRole.Role</members>
+        <members>Contact.AccountId</members>
+        <members>Contact.AssistantName</members>
+        <members>Contact.AssistantPhone</members>
+        <members>Contact.Birthdate</members>
+        <members>Contact.CleanStatus</members>
+        <members>Contact.Department</members>
+        <members>Contact.Description</members>
+        <members>Contact.DoNotCall</members>
+        <members>Contact.Email</members>
+        <members>Contact.Fax</members>
+        <members>Contact.HasOptedOutOfEmail</members>
+        <members>Contact.HasOptedOutOfFax</members>
+        <members>Contact.HomePhone</members>
+        <members>Contact.Jigsaw</members>
         <members>Contact.Languages__c</members>
+        <members>Contact.LastCURequestDate</members>
+        <members>Contact.LastCUUpdateDate</members>
+        <members>Contact.LeadSource</members>
         <members>Contact.Level__c</members>
-        <members>Contract.AutorabitExtId__c</members>
+        <members>Contact.MailingAddress</members>
+        <members>Contact.MobilePhone</members>
+        <members>Contact.Name</members>
+        <members>Contact.OtherAddress</members>
+        <members>Contact.OtherPhone</members>
+        <members>Contact.OwnerId</members>
+        <members>Contact.Phone</members>
+        <members>Contact.ReportsToId</members>
+        <members>Contact.Title</members>
+        <members>ContentVersion.ContentSize</members>
+        <members>ContentVersion.Description</members>
+        <members>ContentVersion.FileExtension</members>
+        <members>ContentVersion.FileType</members>
+        <members>ContentVersion.IsAssetEnabled</members>
+        <members>ContentVersion.Language</members>
+        <members>ContentVersion.OwnerId</members>
+        <members>ContentVersion.SharingOption</members>
+        <members>ContentVersion.TagCsv</members>
+        <members>ContentVersion.Title</members>
+        <members>Contract.AccountId</members>
+        <members>Contract.ActivatedById</members>
+        <members>Contract.ActivatedDate</members>
+        <members>Contract.BillingAddress</members>
+        <members>Contract.CompanySignedDate</members>
+        <members>Contract.CompanySignedId</members>
+        <members>Contract.ContractTerm</members>
+        <members>Contract.CustomerSignedDate</members>
+        <members>Contract.CustomerSignedId</members>
+        <members>Contract.CustomerSignedTitle</members>
+        <members>Contract.Description</members>
+        <members>Contract.EndDate</members>
+        <members>Contract.Name</members>
+        <members>Contract.OwnerExpirationNotice</members>
+        <members>Contract.OwnerId</members>
+        <members>Contract.Pricebook2Id</members>
+        <members>Contract.ShippingAddress</members>
+        <members>Contract.SpecialTerms</members>
+        <members>Contract.StartDate</members>
+        <members>Contract.Status</members>
+        <members>ContractContactRole.Role</members>
         <members>Customer_Success_Table__c.AutorabitExtId__c</members>
         <members>Customer_Success_Table__c.CUST_CITY__c</members>
         <members>Customer_Success_Table__c.Client_Name__c</members>
         <members>Customer_Success_Table__c.triger_field__c</members>
+        <members>DandBCompany.CompanyCurrencyIsoCode</members>
+        <members>DandBCompany.CountryAccessCode</members>
+        <members>DandBCompany.CurrencyCode</members>
+        <members>DandBCompany.Description</members>
+        <members>DandBCompany.DomesticUltimateBusinessName</members>
+        <members>DandBCompany.DomesticUltimateDunsNumber</members>
+        <members>DandBCompany.DunsNumber</members>
+        <members>DandBCompany.EmployeeQuantityGrowthRate</members>
+        <members>DandBCompany.EmployeesHere</members>
+        <members>DandBCompany.EmployeesHereReliability</members>
+        <members>DandBCompany.EmployeesTotal</members>
+        <members>DandBCompany.EmployeesTotalReliability</members>
+        <members>DandBCompany.FamilyMembers</members>
+        <members>DandBCompany.Fax</members>
+        <members>DandBCompany.FifthNaics</members>
+        <members>DandBCompany.FifthNaicsDesc</members>
+        <members>DandBCompany.FifthSic</members>
+        <members>DandBCompany.FifthSic8</members>
+        <members>DandBCompany.FifthSic8Desc</members>
+        <members>DandBCompany.FifthSicDesc</members>
+        <members>DandBCompany.FipsMsaCode</members>
+        <members>DandBCompany.FipsMsaDesc</members>
+        <members>DandBCompany.FortuneRank</members>
+        <members>DandBCompany.FourthNaics</members>
+        <members>DandBCompany.FourthNaicsDesc</members>
+        <members>DandBCompany.FourthSic</members>
+        <members>DandBCompany.FourthSic8</members>
+        <members>DandBCompany.FourthSic8Desc</members>
+        <members>DandBCompany.FourthSicDesc</members>
+        <members>DandBCompany.GeoCodeAccuracy</members>
+        <members>DandBCompany.GlobalUltimateBusinessName</members>
+        <members>DandBCompany.GlobalUltimateDunsNumber</members>
+        <members>DandBCompany.GlobalUltimateTotalEmployees</members>
+        <members>DandBCompany.ImportExportAgent</members>
+        <members>DandBCompany.IncludedInSnP500</members>
+        <members>DandBCompany.Latitude</members>
+        <members>DandBCompany.LegalStatus</members>
+        <members>DandBCompany.LocationStatus</members>
+        <members>DandBCompany.Longitude</members>
+        <members>DandBCompany.MarketingPreScreen</members>
+        <members>DandBCompany.MarketingSegmentationCluster</members>
+        <members>DandBCompany.MinorityOwned</members>
+        <members>DandBCompany.Name</members>
+        <members>DandBCompany.NationalId</members>
+        <members>DandBCompany.NationalIdType</members>
+        <members>DandBCompany.OutOfBusiness</members>
+        <members>DandBCompany.OwnOrRent</members>
+        <members>DandBCompany.ParentOrHqBusinessName</members>
+        <members>DandBCompany.ParentOrHqDunsNumber</members>
+        <members>DandBCompany.Phone</members>
+        <members>DandBCompany.PremisesMeasure</members>
+        <members>DandBCompany.PremisesMeasureReliability</members>
+        <members>DandBCompany.PremisesMeasureUnit</members>
+        <members>DandBCompany.PrimaryNaics</members>
+        <members>DandBCompany.PrimaryNaicsDesc</members>
+        <members>DandBCompany.PrimarySic</members>
+        <members>DandBCompany.PrimarySic8</members>
+        <members>DandBCompany.PrimarySic8Desc</members>
+        <members>DandBCompany.PrimarySicDesc</members>
+        <members>DandBCompany.PriorYearEmployees</members>
+        <members>DandBCompany.PriorYearRevenue</members>
+        <members>DandBCompany.PublicIndicator</members>
+        <members>DandBCompany.SalesTurnoverGrowthRate</members>
+        <members>DandBCompany.SalesVolume</members>
+        <members>DandBCompany.SalesVolumeReliability</members>
+        <members>DandBCompany.SecondNaics</members>
+        <members>DandBCompany.SecondNaicsDesc</members>
+        <members>DandBCompany.SecondSic</members>
+        <members>DandBCompany.SecondSic8</members>
+        <members>DandBCompany.SecondSic8Desc</members>
+        <members>DandBCompany.SecondSicDesc</members>
+        <members>DandBCompany.SixthNaics</members>
+        <members>DandBCompany.SixthNaicsDesc</members>
+        <members>DandBCompany.SixthSic</members>
+        <members>DandBCompany.SixthSic8</members>
+        <members>DandBCompany.SixthSic8Desc</members>
+        <members>DandBCompany.SixthSicDesc</members>
+        <members>DandBCompany.SmallBusiness</members>
+        <members>DandBCompany.StockExchange</members>
+        <members>DandBCompany.StockSymbol</members>
+        <members>DandBCompany.Subsidiary</members>
+        <members>DandBCompany.ThirdNaics</members>
+        <members>DandBCompany.ThirdNaicsDesc</members>
+        <members>DandBCompany.ThirdSic</members>
+        <members>DandBCompany.ThirdSic8</members>
+        <members>DandBCompany.ThirdSic8Desc</members>
+        <members>DandBCompany.ThirdSicDesc</members>
+        <members>DandBCompany.TradeStyle1</members>
+        <members>DandBCompany.TradeStyle2</members>
+        <members>DandBCompany.TradeStyle3</members>
+        <members>DandBCompany.TradeStyle4</members>
+        <members>DandBCompany.TradeStyle5</members>
+        <members>DandBCompany.URL</members>
+        <members>DandBCompany.UsTaxId</members>
+        <members>DandBCompany.WomenOwned</members>
+        <members>DandBCompany.YearStarted</members>
+        <members>DuplicateRecordItem.DuplicateRecordSetId</members>
+        <members>DuplicateRecordItem.RecordId</members>
+        <members>DuplicateRecordSet.DuplicateRuleId</members>
+        <members>DuplicateRecordSet.RecordCount</members>
+        <members>EmailMessage.BccAddress</members>
+        <members>EmailMessage.CcAddress</members>
+        <members>EmailMessage.FromAddress</members>
+        <members>EmailMessage.FromName</members>
+        <members>EmailMessage.HasAttachment</members>
+        <members>EmailMessage.Headers</members>
+        <members>EmailMessage.HtmlBody</members>
+        <members>EmailMessage.Incoming</members>
+        <members>EmailMessage.IsExternallyVisible</members>
+        <members>EmailMessage.MessageDate</members>
+        <members>EmailMessage.MessageSize</members>
+        <members>EmailMessage.ParentId</members>
+        <members>EmailMessage.RelatedToId</members>
+        <members>EmailMessage.Status</members>
+        <members>EmailMessage.Subject</members>
+        <members>EmailMessage.TextBody</members>
+        <members>EmailMessage.ToAddress</members>
+        <members>EmailMessage.ValidatedFromAddress</members>
+        <members>Event.ActivityDate</members>
+        <members>Event.ActivityDateTime</members>
+        <members>Event.Description</members>
+        <members>Event.DurationInMinutes</members>
+        <members>Event.Email</members>
+        <members>Event.EndDateTime</members>
+        <members>Event.EventSubtype</members>
+        <members>Event.IsAllDayEvent</members>
+        <members>Event.IsPrivate</members>
+        <members>Event.Location</members>
+        <members>Event.OwnerId</members>
+        <members>Event.Phone</members>
+        <members>Event.ShowAs</members>
+        <members>Event.StartDateTime</members>
+        <members>Event.Subject</members>
+        <members>Event.Type</members>
+        <members>Event.WhatId</members>
+        <members>Event.WhoId</members>
         <members>Fresh_Object__c.1Field_3__c</members>
         <members>Fresh_Object__c.F1ield_1__c</members>
         <members>Fresh_Object__c.Field_2new__c</members>
@@ -240,18 +457,43 @@
         <members>Fresh_Object__c.Field_7__c</members>
         <members>Fresh_Object__c.Field_8__c</members>
         <members>Goal.OrigGoalId__c</members>
-        <members>Lead.AutorabitExtId__c</members>
+        <members>Idea.Categories</members>
+        <members>Idea.Status</members>
+        <members>Lead.Address</members>
+        <members>Lead.AnnualRevenue</members>
+        <members>Lead.CampaignId</members>
+        <members>Lead.CleanStatus</members>
+        <members>Lead.Company</members>
+        <members>Lead.CompanyDunsNumber</members>
         <members>Lead.CurrentGenerators__c</members>
+        <members>Lead.DandbCompanyId</members>
+        <members>Lead.Description</members>
+        <members>Lead.DoNotCall</members>
+        <members>Lead.Email</members>
+        <members>Lead.Fax</members>
+        <members>Lead.HasOptedOutOfEmail</members>
+        <members>Lead.HasOptedOutOfFax</members>
+        <members>Lead.Industry</members>
+        <members>Lead.Jigsaw</members>
+        <members>Lead.LastTransferDate</members>
+        <members>Lead.LeadSource</members>
+        <members>Lead.MobilePhone</members>
+        <members>Lead.Name</members>
+        <members>Lead.NumberOfEmployees</members>
         <members>Lead.NumberofLocations__c</members>
+        <members>Lead.OwnerId</members>
+        <members>Lead.Phone</members>
         <members>Lead.Primary__c</members>
         <members>Lead.ProductInterest__c</members>
+        <members>Lead.Rating</members>
         <members>Lead.SICCode__c</members>
+        <members>Lead.Status</members>
+        <members>Lead.Title</members>
+        <members>Lead.Website</members>
         <members>LeadCleanInfo.Industry</members>
         <members>Macro.Description</members>
-        <members>Macro.IsAlohaSupported</members>
         <members>Macro.Name</members>
         <members>Macro.OwnerId</members>
-        <members>Macro.StartingContext</members>
         <members>Metric.OrigMetricId__c</members>
         <members>My_Acc__c.Address__c</members>
         <members>My_Acc__c.AutorabitExtId__c</members>
@@ -259,13 +501,11 @@
         <members>My_Contact__c.Phone_num__c</members>
         <members>Opportunity.AccountId</members>
         <members>Opportunity.Amount</members>
-        <members>Opportunity.AutorabitExtId__c</members>
         <members>Opportunity.CampaignId</members>
-        <members>Opportunity.CloseDate1</members>
+        <members>Opportunity.CloseDate</members>
         <members>Opportunity.ContractId</members>
         <members>Opportunity.CurrentGenerators__c</members>
         <members>Opportunity.DeliveryInstallationStatus__c</members>
-        <members>Opportunity.DeliveryInstallationStatus__c1</members>
         <members>Opportunity.Description</members>
         <members>Opportunity.ExpectedRevenue</members>
         <members>Opportunity.IsPrivate</members>
@@ -275,17 +515,74 @@
         <members>Opportunity.NextStep</members>
         <members>Opportunity.OrderNumber__c</members>
         <members>Opportunity.OwnerId</members>
-        <members>Opportunity.Pricebook2Id1</members>
+        <members>Opportunity.Pricebook2Id</members>
         <members>Opportunity.Probability</members>
         <members>Opportunity.StageName</members>
         <members>Opportunity.TotalOpportunityQuantity</members>
         <members>Opportunity.TrackingNumber__c</members>
         <members>Opportunity.Type</members>
-        <members>Order.AutorabitExtId__c</members>
+        <members>OpportunityCompetitor.CompetitorName</members>
+        <members>OpportunityContactRole.Role</members>
+        <members>OpportunityLineItem.Description</members>
+        <members>OpportunityLineItem.Discount</members>
+        <members>OpportunityLineItem.ListPrice</members>
+        <members>OpportunityLineItem.OpportunityId</members>
+        <members>OpportunityLineItem.Product2Id</members>
+        <members>OpportunityLineItem.ProductCode</members>
+        <members>OpportunityLineItem.Quantity</members>
+        <members>OpportunityLineItem.ServiceDate</members>
+        <members>OpportunityLineItem.Subtotal</members>
+        <members>OpportunityLineItem.TotalPrice</members>
+        <members>OpportunityLineItem.UnitPrice</members>
+        <members>Order.AccountId</members>
+        <members>Order.AccountNumber</members>
+        <members>Order.ActivatedById</members>
+        <members>Order.ActivatedDate</members>
+        <members>Order.BillToContactId</members>
+        <members>Order.BillingAddress</members>
+        <members>Order.CompanyAuthorizedById</members>
+        <members>Order.CompanyAuthorizedDate</members>
+        <members>Order.ContractEndDate</members>
+        <members>Order.ContractId</members>
+        <members>Order.ContractName</members>
+        <members>Order.CustomerAuthorizedById</members>
+        <members>Order.CustomerAuthorizedDate</members>
+        <members>Order.Description</members>
+        <members>Order.EffectiveDate</members>
+        <members>Order.EndDate</members>
+        <members>Order.IsReductionOrder</members>
+        <members>Order.Name</members>
+        <members>Order.OpportunityId</members>
+        <members>Order.OrderReferenceNumber</members>
+        <members>Order.OriginalOrderId</members>
+        <members>Order.OwnerId</members>
+        <members>Order.PoDate</members>
+        <members>Order.PoNumber</members>
+        <members>Order.ShipToContactId</members>
+        <members>Order.ShippingAddress</members>
+        <members>Order.TotalAmount</members>
+        <members>Order.Type</members>
+        <members>OrderItem.AvailableQuantity</members>
+        <members>OrderItem.Description</members>
+        <members>OrderItem.EndDate</members>
+        <members>OrderItem.ListPrice</members>
+        <members>OrderItem.OrderId</members>
+        <members>OrderItem.OriginalOrderItemId</members>
+        <members>OrderItem.Product2Id</members>
+        <members>OrderItem.ProductCode</members>
+        <members>OrderItem.Quantity</members>
+        <members>OrderItem.ServiceDate</members>
+        <members>OrderItem.TotalPrice</members>
+        <members>OrderItem.UnitPrice</members>
+        <members>PartnerRole.ReverseRole</members>
+        <members>PradeepNew__c.Field33855__c</members>
         <members>Pradeep_Address__c.Add_ID__c</members>
         <members>Pradeep_Address__c.AutorabitExtId__c</members>
         <members>Pradeep_Address__c.address__c</members>
-        <members>Pricebook2.AutorabitExtId__c</members>
+        <members>Pricebook2.Description</members>
+        <members>Pricebook2.IsActive</members>
+        <members>Pricebook2.IsStandard</members>
+        <members>Pricebook2.Name</members>
         <members>PricebookEntry.IsActive</members>
         <members>PricebookEntry.Pricebook2Id</members>
         <members>PricebookEntry.Product2Id</members>
@@ -293,7 +590,6 @@
         <members>PricebookEntry.StandardPrice</members>
         <members>PricebookEntry.UnitPrice</members>
         <members>PricebookEntry.UseStandardPrice</members>
-        <members>Product2.AutorabitExtId__c</members>
         <members>Product2.Description</members>
         <members>Product2.DisplayUrl</members>
         <members>Product2.ExternalDataSourceId</members>
@@ -303,10 +599,37 @@
         <members>Product2.Name</members>
         <members>Product2.ProductCode</members>
         <members>Product2.QuantityUnitOfMeasure</members>
-        <members>Product2.StockKeepingUnit</members>
-        <members>Solution.AutorabitExtId__c</members>
-        <members>Test__c.missinglabel__c</members>
-        <members>Test__c.testname__c</members>
+        <members>SocialPersona.ExternalId</members>
+        <members>SocialPersona.ExternalPictureURL</members>
+        <members>SocialPersona.Name</members>
+        <members>SocialPersona.ParentId</members>
+        <members>SocialPersona.ProfileUrl</members>
+        <members>SocialPersona.Provider</members>
+        <members>SocialPersona.SourceApp</members>
+        <members>Solution.IsPublished</members>
+        <members>Solution.IsPublishedInPublicKb</members>
+        <members>Solution.SolutionName</members>
+        <members>Solution.SolutionNote</members>
+        <members>Solution.Status</members>
+        <members>Task.ActivityDate</members>
+        <members>Task.CallDisposition</members>
+        <members>Task.CallDurationInSeconds</members>
+        <members>Task.CallObject</members>
+        <members>Task.CallType</members>
+        <members>Task.Description</members>
+        <members>Task.Email</members>
+        <members>Task.IsRecurrence</members>
+        <members>Task.OwnerId</members>
+        <members>Task.Phone</members>
+        <members>Task.Priority</members>
+        <members>Task.RecurrenceInterval</members>
+        <members>Task.RecurrenceRegeneratedType</members>
+        <members>Task.Status</members>
+        <members>Task.Subject</members>
+        <members>Task.TaskSubtype</members>
+        <members>Task.Type</members>
+        <members>Task.WhatId</members>
+        <members>Task.WhoId</members>
         <members>UniqueTest__c.AutorabitExtId__c</members>
         <members>UniqueTest__c.UniqueField__c</members>
         <members>User.ManagerId</members>
@@ -362,15 +685,45 @@
         <members>AssistantProgress</members>
         <members>Campaign</members>
         <members>CampaignMember</members>
+        <members>Case</members>
+        <members>CaseContactRole</members>
+        <members>Contact</members>
+        <members>ContactCleanInfo</members>
+        <members>ContentVersion</members>
+        <members>Contract</members>
+        <members>ContractContactRole</members>
         <members>Customer_Success_Table__c</members>
+        <members>DandBCompany</members>
+        <members>DuplicateRecordItem</members>
+        <members>DuplicateRecordSet</members>
+        <members>EmailMessage</members>
+        <members>Event</members>
+        <members>ExchangeUserMapping</members>
+        <members>FeedItem</members>
+        <members>ForecastingCategoryMapping</members>
         <members>Fresh_Object__c</members>
+        <members>Idea</members>
+        <members>Lead</members>
         <members>LeadCleanInfo</members>
         <members>Macro</members>
         <members>MacroAction</members>
+        <members>MacroInstruction</members>
         <members>My_Contact__c</members>
         <members>Opportunity</members>
+        <members>OpportunityCompetitor</members>
+        <members>OpportunityContactRole</members>
+        <members>OpportunityLineItem</members>
+        <members>Order</members>
+        <members>OrderItem</members>
+        <members>PartnerRole</members>
+        <members>Pricebook2</members>
         <members>PricebookEntry</members>
         <members>Product2</members>
+        <members>Site</members>
+        <members>SocialPersona</members>
+        <members>Solution</members>
+        <members>StreamingChannel</members>
+        <members>Task</members>
         <members>Test1__c</members>
         <members>Test2__c</members>
         <members>Test__c</members>
@@ -480,6 +833,8 @@
         <members>Event-Event Layout</members>
         <members>FeedItem-Feed Item Layout</members>
         <members>Global-Global Layout</members>
+        <members>Global-PradeepGL</members>
+        <members>Global-PradeepGL1</members>
         <members>Idea-Idea Layout</members>
         <members>JOB1__c-JOB1 Layout</members>
         <members>KCobj1__c-KCobj1 Layout</members>
@@ -595,9 +950,30 @@
         <members>Asset.AllAssets</members>
         <members>Campaign.AllActiveCampaigns</members>
         <members>Campaign.MyActiveCampaigns</members>
+        <members>Case.AllClosedCases</members>
+        <members>Case.AllOpenCases</members>
+        <members>Case.MyCases</members>
+        <members>Case.MyOpenCases</members>
+        <members>Contact.AllContacts</members>
+        <members>Contact.BirthdaysThisMonth</members>
+        <members>Contact.MyContacts</members>
+        <members>Contact.NewLastWeek</members>
+        <members>Contact.NewThisWeek</members>
+        <members>Contract.AllActivatedContracts</members>
+        <members>Contract.AllContracts</members>
+        <members>Contract.AllDraftContracts</members>
+        <members>Contract.AllInApprovalContracts</members>
+        <members>Contract.MyActivatedContracts</members>
+        <members>Contract.MyDraftContracts</members>
+        <members>Contract.MyInApprovalContracts</members>
         <members>Customer_Success_Table__c.All</members>
         <members>Fresh_Object__c.All</members>
         <members>Idea.Ideas_Last_7_Days</members>
+        <members>Lead.AllOpenLeads</members>
+        <members>Lead.MyUnreadLeads</members>
+        <members>Lead.TodaysLeads</members>
+        <members>Lead.ViewCustom1</members>
+        <members>Lead.ViewCustom2</members>
         <members>My_Contact__c.All</members>
         <members>Opportunity.AllOpportunities</members>
         <members>Opportunity.ClosingNextMonth</members>
@@ -608,7 +984,12 @@
         <members>Opportunity.NewThisWeek</members>
         <members>Opportunity.Private</members>
         <members>Opportunity.Won</members>
+        <members>Order.AllActivatedOrders</members>
+        <members>Order.AllDraftOrders</members>
+        <members>Order.AllOrders</members>
         <members>Product2.AllProducts</members>
+        <members>Solution.AllReviewedSolutions</members>
+        <members>Solution.AllUnreviewedSolutions</members>
         <members>Ticket__c.All</members>
         <members>UniqueTest__c.All</members>
         <members>User.ActiveUsers</members>
@@ -661,10 +1042,13 @@
         <name>Profile</name>
     </types>
     <types>
+        <members>Account.AR1</members>
+        <members>Account.SubAR12</members>
+        <members>Account.ar3</members>
+        <members>Account.ar4</members>
         <members>Fresh_Object__c.Rec111</members>
         <members>Fresh_Object__c.Rec222</members>
-        <members>Metric.Completion</members>
-        <members>Metric.Progress</members>
+        <members>Idea.InternalIdeasIdeaRecordType</members>
         <name>RecordType</name>
     </types>
     <types>
@@ -684,6 +1068,7 @@
     <types>
         <members>Account.Billing</members>
         <members>Campaign.ViewCampaignInfluenceReport</members>
+        <members>Case.UpsellCrosssellOpportunity</members>
         <members>Fresh_Object__c.Test_Button_new</members>
         <members>Fresh_Object__c.Test_Link_new</members>
         <members>Opportunity.DeliveryStatus</members>
