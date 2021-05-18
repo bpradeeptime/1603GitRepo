@@ -500,6 +500,10 @@
         <members>OrderItem.TotalPrice</members>
         <members>OrderItem.UnitPrice</members>
         <members>PartnerRole.ReverseRole</members>
+        <members>PradeepNew__c.Field338555__c</members>
+        <members>PradeepNew__c.PickList1__c</members>
+        <members>PradeepNew__c.PickList2__c</members>
+        <members>PradeepNew__c.PickList3__c</members>
         <members>Pricebook2.Description</members>
         <members>Pricebook2.IsActive</members>
         <members>Pricebook2.IsStandard</members>
@@ -566,6 +570,10 @@
         <name>CustomField</name>
     </types>
     <types>
+        <members>Pradeep_Custom_Permission.PradeepObj1</members>
+        <name>CustomMetadata</name>
+    </types>
+    <types>
         <members>Account</members>
         <members>AccountCleanInfo</members>
         <members>AccountContactRole</members>
@@ -603,6 +611,7 @@
         <members>Order</members>
         <members>OrderItem</members>
         <members>PartnerRole</members>
+        <members>PradeepNew__c</members>
         <members>Pricebook2</members>
         <members>PricebookEntry</members>
         <members>Product2</members>
@@ -622,6 +631,7 @@
         <members>Global-Global Layout</members>
         <members>Global-PradeepGL</members>
         <members>Global-PradeepGL1</members>
+        <members>PradeepNew__c-PradeepNew Layout</members>
         <name>Layout</name>
     </types>
     <types>
@@ -680,6 +690,27 @@
         <name>ListView</name>
     </types>
     <types>
+        <members>Admin</members>
+        <members>Analytics Cloud Integration User</members>
+        <members>Analytics Cloud Security User</members>
+        <members>ContractManager</members>
+        <members>Cross Org Data Proxy User</members>
+        <members>Custom%3A Marketing Profile</members>
+        <members>Custom%3A Sales Profile</members>
+        <members>Custom%3A Support Profile</members>
+        <members>Force%2Ecom - App Subscription User</members>
+        <members>Force%2Ecom - Free User</members>
+        <members>Identity User</members>
+        <members>MarketingProfile</members>
+        <members>Minimum Access - Salesforce</members>
+        <members>P2</members>
+        <members>Partner App Subscription User</members>
+        <members>Profile1</members>
+        <members>ReadOnly</members>
+        <members>SolutionManager</members>
+        <members>Standard</members>
+        <members>StandardAul</members>
+        <members>Work%2Ecom Only User</members>
         <members>test</members>
         <name>Profile</name>
     </types>
