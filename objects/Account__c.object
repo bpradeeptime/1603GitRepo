@@ -17,6 +17,6 @@
         <protected>false</protected>
         <showsLocation>false</showsLocation>
         <showsStatus>false</showsStatus>
-        <url>https://cvxjudo-prodPradeep1.azurewebsites.net/Customers?CustUUID={!URLENCODE(CASESAFEID(Account.Id))}&amp;CustName={!URLENCODE(Account.Name)}</url>
+        <url>https://cvxjudo-pra.azurewebsites.net/Customers?CustUUID={!URLENCODE(CASESAFEID(Account.Id))}&amp;CustName={!URLENCODE(Account.Name)}</url>
     </webLinks>
 </CustomObject>
