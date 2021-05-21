@@ -71,6 +71,7 @@
         <members>AccountCleanInfo.Industry</members>
         <members>AccountCleanInfo.Ownership</members>
         <members>AccountContactRole.Role</members>
+        <members>Account__c.name__c</members>
         <members>Asset.AccountId</members>
         <members>Asset.AssetLevel</members>
         <members>Asset.AssetProvidedById</members>
@@ -577,6 +578,7 @@
         <members>Account</members>
         <members>AccountCleanInfo</members>
         <members>AccountContactRole</members>
+        <members>Account__c</members>
         <members>Activity</members>
         <members>Asset</members>
         <members>AssetRelationship</members>
@@ -720,10 +722,13 @@
         <members>Account.ar3</members>
         <members>Account.ar4</members>
         <members>Idea.InternalIdeasIdeaRecordType</members>
+        <members>PradeepNew__c.RecordType1</members>
+        <members>PradeepNew__c.RecordType2</members>
         <name>RecordType</name>
     </types>
     <types>
         <members>Account.Billing</members>
+        <members>Account__c.weblink</members>
         <members>Campaign.ViewCampaignInfluenceReport</members>
         <members>Case.UpsellCrosssellOpportunity</members>
         <members>Opportunity.DeliveryStatus</members>
