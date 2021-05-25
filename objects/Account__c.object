@@ -154,16 +154,6 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
-        <fullName>Field1__c</fullName>
-        <externalId>false</externalId>
-        <label>Field1</label>
-        <length>20</length>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
         <fullName>name__c</fullName>
         <description>added</description>
         <externalId>false</externalId>
