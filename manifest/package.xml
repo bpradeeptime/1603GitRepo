@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>48.0</version>
     <types>
-        <members>Account__c.Field1_del1__c</members>
         <members>Account__c.name__c</members>
         <name>CustomField</name>
     </types>
