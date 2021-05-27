@@ -154,11 +154,11 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
-        <fullName>name__c</fullName>
+        <fullName>name1__c</fullName>
         <description>added</description>
         <externalId>false</externalId>
         <inlineHelpText>news newly</inlineHelpText>
-        <label>Name</label>
+        <label>Name1</label>
         <length>100</length>
         <required>false</required>
         <trackTrending>false</trackTrending>
