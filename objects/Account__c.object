@@ -153,18 +153,6 @@
     <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <fields>
-        <fullName>name1__c</fullName>
-        <description>added</description>
-        <externalId>false</externalId>
-        <inlineHelpText>news newly</inlineHelpText>
-        <label>Name1</label>
-        <length>100</length>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
     <label>Account</label>
     <nameField>
         <label>Name</label>
