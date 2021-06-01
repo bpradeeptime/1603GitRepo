@@ -4,7 +4,7 @@ public class BusinessClass {
     }
     
     Public void add(Integer a ,integer b){
-        Integer c;//test method multiply   tt   fd
+        Integer c;//test method multiply   tt
         c = a+b;
     }
     //test method multiply   tt

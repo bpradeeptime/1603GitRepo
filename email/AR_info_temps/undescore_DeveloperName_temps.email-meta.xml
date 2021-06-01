@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>undescore__DeveloperName_temps test</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>letterHead1</letterhead>
+    <name>undescore__DeveloperName_temps</name>
+    <style>formalLetter</style>
+    <subject>undescore__DeveloperName_temps test</subject>
+    <textOnly>HI</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

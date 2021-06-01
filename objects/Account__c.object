@@ -143,7 +143,6 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>New Desc</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -153,54 +152,24 @@
     <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
     <fields>
-        <fullName>Credit_Card_Number__c</fullName>
+        <fullName>City__c</fullName>
         <externalId>false</externalId>
-        <label>Credit_Card_Number</label>
-        <length>10</length>
+        <label>City</label>
+        <length>30</length>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
     </fields>
-    <fields>
-        <fullName>name__c</fullName>
-        <description>added</description>
-        <externalId>false</externalId>
-        <inlineHelpText>news newly</inlineHelpText>
-        <label>Name</label>
-        <length>100</length>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <label>Account</label>
+    <label>Account123</label>
     <nameField>
-        <label>Name</label>
+        <label>Account Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Accounts</pluralLabel>
+    <pluralLabel>Account123s</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
-    <webLinks>
-        <fullName>weblink</fullName>
-        <availability>online</availability>
-        <displayType>link</displayType>
-        <encodingKey>UTF-8</encodingKey>
-        <hasMenubar>false</hasMenubar>
-        <hasScrollbars>true</hasScrollbars>
-        <hasToolbar>false</hasToolbar>
-        <height>600</height>
-        <isResizable>true</isResizable>
-        <linkType>url</linkType>
-        <masterLabel>weblink</masterLabel>
-        <openType>newWindow</openType>
-        <position>none</position>
-        <protected>false</protected>
-        <showsLocation>false</showsLocation>
-        <showsStatus>false</showsStatus>
-        <url>https://cvxjudo-pra.azurewebsites.net/Customers?CustUUID={!URLENCODE(CASESAFEID(Account.Id))}&amp;CustName={!URLENCODE(Account.Name)}</url>
-    </webLinks>
 </CustomObject>

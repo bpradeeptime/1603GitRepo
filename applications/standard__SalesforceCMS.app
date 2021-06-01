@@ -6,11 +6,35 @@
     <label>Salesforce CMS</label>
     <navType>Console</navType>
     <tabs>standard-CmsAuthorHome</tabs>
+    <tabs>Table__c</tabs>
+    <tabs>Track__c</tabs>
+    <tabs>Training__c</tabs>
+    <tabs>EnhancedObj__c</tabs>
+    <tabs>Account_Request__c</tabs>
     <tabs>standard-CmsChannel</tabs>
     <tabs>standard-CmsWorkspaces</tabs>
     <tabs>standard-CmsExperiences</tabs>
+    <tabs>Travelor__c</tabs>
     <uiType>Lightning</uiType>
     <workspaceConfig>
+        <mappings>
+            <tab>Account_Request__c</tab>
+        </mappings>
+        <mappings>
+            <tab>EnhancedObj__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Table__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Track__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Training__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Travelor__c</tab>
+        </mappings>
         <mappings>
             <tab>standard-CmsAuthorHome</tab>
         </mappings>

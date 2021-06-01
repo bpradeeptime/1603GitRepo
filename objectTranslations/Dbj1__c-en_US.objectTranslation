@@ -12,17 +12,5 @@
         <label><!-- F1 --></label>
         <name>F1__c</name>
     </fields>
-    <fields>
-        <label><!-- F2 --></label>
-        <name>F2__c</name>
-    </fields>
-    <recordTypes>
-        <label><!-- Dbj_RC1 --></label>
-        <name>Dbj_RC1</name>
-    </recordTypes>
-    <recordTypes>
-        <label><!-- Dbj_RC2 --></label>
-        <name>Dbj_RC2</name>
-    </recordTypes>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

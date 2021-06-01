@@ -179,38 +179,114 @@
     <tabs>standard-Case</tabs>
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-Lead</tabs>
-    <tabs>My_Acc__c</tabs>
-    <tabs>My_Contact__c</tabs>
-    <tabs>agents__c</tabs>
-    <tabs>customer__c</tabs>
-    <tabs>orders__c</tabs>
-    <tabs>Customer_Success_Table__c</tabs>
-    <tabs>Pradeep_Address__c</tabs>
-    <tabs>UniqueTest__c</tabs>
+    <tabs>Emp__c</tabs>
+    <tabs>Emp2__c</tabs>
+    <tabs>ExObj1__x</tabs>
+    <tabs>Visitor__c</tabs>
+    <tabs>ExObj2__x</tabs>
+    <tabs>ExtObj3__x</tabs>
+    <tabs>Student__c</tabs>
+    <tabs>Pass1__c</tabs>
+    <tabs>Pass2__c</tabs>
+    <tabs>Pass3__c</tabs>
+    <tabs>College__c</tabs>
+    <tabs>SObj1__c</tabs>
+    <tabs>HistoryTestObj__c</tabs>
+    <tabs>InstallationObj__c</tabs>
+    <tabs>Expenses__c</tabs>
+    <tabs>CustomController__c</tabs>
+    <tabs>TranslationObj2__c</tabs>
+    <tabs>TransObj12__c</tabs>
+    <tabs>prd__c</tabs>
+    <tabs>pd1__c</tabs>
+    <tabs>SpecialObj__c</tabs>
+    <tabs>Table__c</tabs>
+    <tabs>Track__c</tabs>
+    <tabs>Training__c</tabs>
+    <tabs>EnhancedObj__c</tabs>
+    <tabs>Account_Request__c</tabs>
+    <tabs>Travelor__c</tabs>
     <workspaceConfig>
         <mappings>
-            <tab>Customer_Success_Table__c</tab>
+            <tab>Account_Request__c</tab>
         </mappings>
         <mappings>
-            <tab>My_Acc__c</tab>
+            <tab>College__c</tab>
         </mappings>
         <mappings>
-            <tab>My_Contact__c</tab>
+            <tab>CustomController__c</tab>
         </mappings>
         <mappings>
-            <tab>Pradeep_Address__c</tab>
+            <tab>Emp2__c</tab>
         </mappings>
         <mappings>
-            <tab>UniqueTest__c</tab>
+            <tab>Emp__c</tab>
         </mappings>
         <mappings>
-            <tab>agents__c</tab>
+            <tab>EnhancedObj__c</tab>
         </mappings>
         <mappings>
-            <tab>customer__c</tab>
+            <tab>ExObj1__x</tab>
         </mappings>
         <mappings>
-            <tab>orders__c</tab>
+            <tab>ExObj2__x</tab>
+        </mappings>
+        <mappings>
+            <tab>Expenses__c</tab>
+        </mappings>
+        <mappings>
+            <tab>ExtObj3__x</tab>
+        </mappings>
+        <mappings>
+            <tab>HistoryTestObj__c</tab>
+        </mappings>
+        <mappings>
+            <tab>InstallationObj__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Pass1__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Pass2__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Pass3__c</tab>
+        </mappings>
+        <mappings>
+            <tab>SObj1__c</tab>
+        </mappings>
+        <mappings>
+            <tab>SpecialObj__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Student__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Table__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Track__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Training__c</tab>
+        </mappings>
+        <mappings>
+            <tab>TransObj12__c</tab>
+        </mappings>
+        <mappings>
+            <tab>TranslationObj2__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Travelor__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Visitor__c</tab>
+        </mappings>
+        <mappings>
+            <tab>pd1__c</tab>
+        </mappings>
+        <mappings>
+            <tab>prd__c</tab>
         </mappings>
         <mappings>
             <tab>standard-Account</tab>

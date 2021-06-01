@@ -5,7 +5,7 @@
     <enableClickjackUserPageHeaderless>false</enableClickjackUserPageHeaderless>
     <enableCollapsibleSections>true</enableCollapsibleSections>
     <enableCollapsibleSideBar>false</enableCollapsibleSideBar>
-    <enableCustomObjectTruncate>false</enableCustomObjectTruncate>
+    <enableCustomObjectTruncate>true</enableCustomObjectTruncate>
     <enableCustomeSideBarOnAllPages>false</enableCustomeSideBarOnAllPages>
     <enableDeleteFieldHistory>false</enableDeleteFieldHistory>
     <enableExternalObjectAsyncRelatedLists>true</enableExternalObjectAsyncRelatedLists>

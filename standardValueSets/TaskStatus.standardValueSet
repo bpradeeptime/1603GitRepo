@@ -31,4 +31,10 @@
         <label>Deferred</label>
         <closed>false</closed>
     </standardValue>
+    <standardValue>
+        <fullName>New – Subject Text</fullName>
+        <default>false</default>
+        <label>New – Subject Text</label>
+        <closed>false</closed>
+    </standardValue>
 </StandardValueSet>

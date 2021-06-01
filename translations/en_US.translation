@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customLabels>
+        <label><!-- AAtest456 --></label>
+        <name>AAtest456</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ac111 --></label>
+        <name>AC1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AC100 --></label>
+        <name>AC100</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AC11 --></label>
+        <name>AC11</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AC211 --></label>
+        <name>AC2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AC56 --></label>
+        <name>AC56</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AC6712 --></label>
+        <name>AC67</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AC8 --></label>
+        <name>AC8</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ACCL1 --></label>
+        <name>ACCL1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CL! --></label>
+        <name>CL</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cls2 --></label>
+        <name>Cls2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cls3 --></label>
+        <name>Cls3</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CustomLabel1 --></label>
+        <name>CustomLabel1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- HarishLabel1 --></label>
+        <name>HarishLabel1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LB3 --></label>
+        <name>LB3</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- StrLB --></label>
+        <name>StrLB</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- TElugu --></label>
+        <name>Test_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Test label mar 27 --></label>
+        <name>Test_label_mar_27</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- aaaabcd --></label>
+        <name>aaaabcd</name>
+    </customLabels>
+    <customLabels>
+        <label>ppppppppppppppppppppp</label>
+        <name>lb1</name>
+    </customLabels>
+    <customLabels>
+        <label>aaaaaaaaaaaaaaaaaaaa</label>
+        <name>lb2</name>
+    </customLabels>
+    <customLabels>
+        <label>eeeeeeeeeeeeeeeeeeeeeeeeee</label>
+        <name>vvvvv</name>
+    </customLabels>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Opportunity_to_Contract</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Opportunity_to_Order</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Opportunity_to_Order_with_Contract</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>Submit</name>
+                </fields>
+                <name>TestFlow1</name>
+            </screens>
+        </flows>
+        <fullName>TestFlowProperty1</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Test_Process</fullName>
+    </flowDefinitions>
+    <quickActions>
+        <label><!-- Guest Community Case --></label>
+        <name>GuestCommunityCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- LogACall --></label>
+        <name>LogACall</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewAccount --></label>
+        <name>NewAccount</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewCase --></label>
+        <name>NewCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Community Case --></label>
+        <name>NewCommunityCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewContact --></label>
+        <name>NewContact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewEvent --></label>
+        <name>NewEvent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewGroup --></label>
+        <name>NewGroup</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewLead --></label>
+        <name>NewLead</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewNote --></label>
+        <name>NewNote</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewOpportunity --></label>
+        <name>NewOpportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewTask --></label>
+        <name>NewTask</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <reportTypes>
+        <description><!-- Test Report Type --></description>
+        <label><!-- Test Report Type --></label>
+        <name>Test_Report_Type</name>
+        <sections>
+            <label><!-- Contacts --></label>
+            <name>Contacts</name>
+        </sections>
+        <sections>
+            <label><!-- Opportunities --></label>
+            <name>Opportunities</name>
+        </sections>
+        <sections>
+            <label><!-- Products --></label>
+            <name>Products</name>
+        </sections>
+    </reportTypes>
+</Translations>
