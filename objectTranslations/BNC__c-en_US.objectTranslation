@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>BNC</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>BNCs</value>
+    </caseValues>
+    <fields>
+        <label><!-- BNCF1 --></label>
+        <name>BNCF1__c</name>
+    </fields>
+    <fields>
+        <label><!-- BNCF2 --></label>
+        <name>BNCF2__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
